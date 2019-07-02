@@ -1,0 +1,303 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Верстка компонента <Badge> Дефолтная 1`] = `
+.c0 {
+  display: inline-block;
+  color: #ffffff;
+  border-radius: 2px;
+  background-color: #8d8d8d;
+  padding: 5px 10px;
+  font: 600 13px "Open Sans",sans-serif;
+  line-height: 14px;
+  border-radius: 2px;
+}
+
+.c0:empty {
+  width: 12px;
+  height: 12px;
+  padding: 0;
+}
+
+<span
+  className="c0"
+  color="gray"
+  size="medium"
+>
+  Badge
+</span>
+`;
+
+exports[`Верстка компонента <Badge> Дополнительный CSS класс 1`] = `
+.c0 {
+  display: inline-block;
+  color: #ffffff;
+  border-radius: 2px;
+  background-color: #8d8d8d;
+  padding: 5px 10px;
+  font: 600 13px "Open Sans",sans-serif;
+  line-height: 14px;
+  border-radius: 2px;
+}
+
+.c0:empty {
+  width: 12px;
+  height: 12px;
+  padding: 0;
+}
+
+<span
+  className="custom c0"
+  color="gray"
+  size="medium"
+>
+  Badge
+</span>
+`;
+
+exports[`Верстка компонента <Badge> Зеленый фон 1`] = `
+.c0 {
+  display: inline-block;
+  color: #ffffff;
+  border-radius: 2px;
+  background-color: #a2c679;
+  padding: 5px 10px;
+  font: 600 13px "Open Sans",sans-serif;
+  line-height: 14px;
+  border-radius: 2px;
+}
+
+.c0:empty {
+  width: 12px;
+  height: 12px;
+  padding: 0;
+}
+
+<span
+  className="c0"
+  color="green"
+  size="medium"
+>
+  Badge
+</span>
+`;
+
+exports[`Верстка компонента <Badge> Золотой фон 1`] = `
+.c0 {
+  display: inline-block;
+  color: #ffffff;
+  border-radius: 2px;
+  background-color: #f6be4e;
+  padding: 5px 10px;
+  font: 600 13px "Open Sans",sans-serif;
+  line-height: 14px;
+  border-radius: 2px;
+}
+
+.c0:empty {
+  width: 12px;
+  height: 12px;
+  padding: 0;
+}
+
+<span
+  className="c0"
+  color="gold"
+  size="medium"
+>
+  Badge
+</span>
+`;
+
+exports[`Верстка компонента <Badge> Красный фон 1`] = `
+.c0 {
+  display: inline-block;
+  color: #ffffff;
+  border-radius: 2px;
+  background-color: #e95454;
+  padding: 5px 10px;
+  font: 600 13px "Open Sans",sans-serif;
+  line-height: 14px;
+  border-radius: 2px;
+}
+
+.c0:empty {
+  width: 12px;
+  height: 12px;
+  padding: 0;
+}
+
+<span
+  className="c0"
+  color="red"
+  size="medium"
+>
+  Badge
+</span>
+`;
+
+exports[`Верстка компонента <Badge> Круглые углы 1`] = `
+.c0 {
+  display: inline-block;
+  color: #ffffff;
+  border-radius: 2px;
+  background-color: #8d8d8d;
+  padding: 5px 10px;
+  font: 600 13px "Open Sans",sans-serif;
+  line-height: 14px;
+  border-radius: 12px;
+}
+
+.c0:empty {
+  width: 12px;
+  height: 12px;
+  padding: 0;
+}
+
+<span
+  className="c0"
+  color="gray"
+  size="medium"
+>
+  Badge
+</span>
+`;
+
+exports[`Верстка компонента <Badge> Маленький размер 1`] = `
+.c0 {
+  display: inline-block;
+  color: #ffffff;
+  border-radius: 2px;
+  background-color: #8d8d8d;
+  padding: 3px 5px;
+  font: 700 10px "Open Sans",sans-serif;
+  line-height: 10px;
+  border-radius: 2px;
+}
+
+.c0:empty {
+  width: 8px;
+  height: 8px;
+  padding: 0;
+}
+
+<span
+  className="c0"
+  color="gray"
+  size="small"
+>
+  Badge
+</span>
+`;
+
+exports[`Верстка компонента <Badge> Прокидываются неописанные свойства 1`] = `
+.c0 {
+  display: inline-block;
+  color: #ffffff;
+  border-radius: 2px;
+  background-color: #8d8d8d;
+  padding: 5px 10px;
+  font: 600 13px "Open Sans",sans-serif;
+  line-height: 14px;
+  border-radius: 2px;
+}
+
+.c0:empty {
+  width: 12px;
+  height: 12px;
+  padding: 0;
+}
+
+<span
+  className="c0"
+  color="gray"
+  size="medium"
+  style={
+    Object {
+      "margin": 16,
+    }
+  }
+>
+  Badge
+</span>
+`;
+
+exports[`Верстка компонента <Badge> Серый фон 1`] = `
+.c0 {
+  display: inline-block;
+  color: #ffffff;
+  border-radius: 2px;
+  background-color: #8d8d8d;
+  padding: 5px 10px;
+  font: 600 13px "Open Sans",sans-serif;
+  line-height: 14px;
+  border-radius: 2px;
+}
+
+.c0:empty {
+  width: 12px;
+  height: 12px;
+  padding: 0;
+}
+
+<span
+  className="c0"
+  color="gray"
+  size="medium"
+>
+  Badge
+</span>
+`;
+
+exports[`Верстка компонента <Badge> Синий фон 1`] = `
+.c0 {
+  display: inline-block;
+  color: #ffffff;
+  border-radius: 2px;
+  background-color: #4786c8;
+  padding: 5px 10px;
+  font: 600 13px "Open Sans",sans-serif;
+  line-height: 14px;
+  border-radius: 2px;
+}
+
+.c0:empty {
+  width: 12px;
+  height: 12px;
+  padding: 0;
+}
+
+<span
+  className="c0"
+  color="blue"
+  size="medium"
+>
+  Badge
+</span>
+`;
+
+exports[`Верстка компонента <Badge> Средний размер 1`] = `
+.c0 {
+  display: inline-block;
+  color: #ffffff;
+  border-radius: 2px;
+  background-color: #8d8d8d;
+  padding: 5px 10px;
+  font: 600 13px "Open Sans",sans-serif;
+  line-height: 14px;
+  border-radius: 2px;
+}
+
+.c0:empty {
+  width: 12px;
+  height: 12px;
+  padding: 0;
+}
+
+<span
+  className="c0"
+  color="gray"
+  size="medium"
+>
+  Badge
+</span>
+`;

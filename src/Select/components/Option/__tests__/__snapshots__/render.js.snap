@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Верстка компонента <Select.Option> Выбранный 1`] = `
+<div
+  className="sc-EHOje bFIngR"
+  onClick={[Function]}
+  selected={true}
+>
+  Label
+</div>
+`;
+
+exports[`Верстка компонента <Select.Option> Дефолтная 1`] = `
+<div
+  className="sc-EHOje fxeDmu"
+  onClick={[Function]}
+  selected={false}
+>
+  Label
+</div>
+`;
+
+exports[`Верстка компонента <Select.Option> С выбранным чекбоксом 1`] = `
+<div
+  className="sc-EHOje fxeDmu"
+  onClick={[Function]}
+  selected={false}
+>
+  <div
+    className="sc-bZQynM dMnwbS sc-bxivhb eHEXwf"
+    color="blue"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <div
+      className="sc-bdVaJa fAfBkV"
+      disabled={false}
+    >
+      <div
+        className="sc-bwzfXH hCglrn"
+        color="blue"
+        disabled={false}
+      >
+        <svg
+          aria-hidden="true"
+          className="icon  sc-htpNat dHUGjo"
+          focusable="false"
+          large={false}
+          style={Object {}}
+          viewBox="0 0 8 7"
+        >
+          <path
+            d="M2.59 7a.74.74 0 0 1-.5-.2L.21 4.95a.68.68 0 0 1 0-.98.7.7 0 0 1 .99 0l1.39 1.36L6.8 1.2a.7.7 0 0 1 .99 0c.28.27.28.71 0 .98L3.09 6.8a.74.74 0 0 1-.5.2"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      className="sc-ifAKCX fRGfKL"
+      disabled={false}
+    >
+      Label
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Верстка компонента <Select.Option> С чекбоксом 1`] = `
+<div
+  className="sc-EHOje fxeDmu"
+  onClick={[Function]}
+  selected={false}
+>
+  <div
+    className="sc-bZQynM dMnwbS sc-bxivhb eHEXwf"
+    color="blue"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <div
+      className="sc-bdVaJa gQCSGd"
+      disabled={false}
+    >
+      <div
+        className="sc-bwzfXH eXDSiB"
+        color="blue"
+        disabled={false}
+      >
+        <svg
+          aria-hidden="true"
+          className="icon  sc-htpNat dHUGjo"
+          focusable="false"
+          large={false}
+          style={Object {}}
+          viewBox="0 0 8 7"
+        >
+          <path
+            d="M2.59 7a.74.74 0 0 1-.5-.2L.21 4.95a.68.68 0 0 1 0-.98.7.7 0 0 1 .99 0l1.39 1.36L6.8 1.2a.7.7 0 0 1 .99 0c.28.27.28.71 0 .98L3.09 6.8a.74.74 0 0 1-.5.2"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      className="sc-ifAKCX fRGfKL"
+      disabled={false}
+    >
+      Label
+    </div>
+  </div>
+</div>
+`;

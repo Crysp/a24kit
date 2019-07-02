@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Верстка компонента <LinkButton> Дефолтная 1`] = `
+<button
+  className="sc-bdVaJa jKnhGB"
+>
+  Link button
+</button>
+`;
+
+exports[`Верстка компонента <LinkButton> Дефолтная с дополнительным CSS классом 1`] = `
+<button
+  className="custom sc-bdVaJa jKnhGB"
+>
+  Link button
+</button>
+`;

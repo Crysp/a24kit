@@ -1,0 +1,1453 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Верстка компонента <Input> Без рамки 1`] = `
+.c3 {
+  box-sizing: border-box;
+  width: 100%;
+  border: 0;
+  border-radius: 2px;
+  color: #333333;
+  background-color: transparent;
+  outline: none;
+  text-align: left;
+  font: 400 14px "Open Sans",sans-serif;
+  padding: 10px 12px 10px 12px;
+  line-height: inherit;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #8d8d8d;
+}
+
+.c3::-moz-placeholder {
+  color: #8d8d8d;
+}
+
+.c3:-ms-input-placeholder {
+  color: #8d8d8d;
+}
+
+.c3:-moz-placeholder {
+  color: #8d8d8d;
+}
+
+.c3[disabled] {
+  color: #8d8d8d;
+}
+
+.c0 {
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  border: 0px solid #e1e1e1;
+  border-radius: 2px;
+  background-color: #fff;
+  -webkit-transition: box-shadow .25s ease-out,border-color .2s linear,background-color .2s linear,color .2s linear;
+  transition: box-shadow .25s ease-out,border-color .2s linear,background-color .2s linear,color .2s linear;
+  box-shadow: none;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <input
+        autoComplete="off"
+        className="c3"
+        formNoValidate={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onPaste={[Function]}
+        onTouchCancel={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        type="text"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Верстка компонента <Input> Валидный статус 1`] = `
+.c3 {
+  box-sizing: border-box;
+  width: 100%;
+  border: 0;
+  border-radius: 2px;
+  color: #333333;
+  background-color: transparent;
+  outline: none;
+  text-align: left;
+  font: 400 14px "Open Sans",sans-serif;
+  padding: 10px 12px 10px 12px;
+  line-height: inherit;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #8d8d8d;
+}
+
+.c3::-moz-placeholder {
+  color: #8d8d8d;
+}
+
+.c3:-ms-input-placeholder {
+  color: #8d8d8d;
+}
+
+.c3:-moz-placeholder {
+  color: #8d8d8d;
+}
+
+.c3[disabled] {
+  color: #8d8d8d;
+}
+
+.c0 {
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid #e1e1e1;
+  border-radius: 2px;
+  background-color: #fff;
+  -webkit-transition: box-shadow .25s ease-out,border-color .2s linear,background-color .2s linear,color .2s linear;
+  transition: box-shadow .25s ease-out,border-color .2s linear,background-color .2s linear,color .2s linear;
+  box-shadow: none;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <input
+        autoComplete="off"
+        className="c3"
+        formNoValidate={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onPaste={[Function]}
+        onTouchCancel={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        type="text"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Верстка компонента <Input> Дефолтная 1`] = `
+.c3 {
+  box-sizing: border-box;
+  width: 100%;
+  border: 0;
+  border-radius: 2px;
+  color: #333333;
+  background-color: transparent;
+  outline: none;
+  text-align: left;
+  font: 400 14px "Open Sans",sans-serif;
+  padding: 10px 12px 10px 12px;
+  line-height: inherit;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #8d8d8d;
+}
+
+.c3::-moz-placeholder {
+  color: #8d8d8d;
+}
+
+.c3:-ms-input-placeholder {
+  color: #8d8d8d;
+}
+
+.c3:-moz-placeholder {
+  color: #8d8d8d;
+}
+
+.c3[disabled] {
+  color: #8d8d8d;
+}
+
+.c0 {
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid #e1e1e1;
+  border-radius: 2px;
+  background-color: #fff;
+  -webkit-transition: box-shadow .25s ease-out,border-color .2s linear,background-color .2s linear,color .2s linear;
+  transition: box-shadow .25s ease-out,border-color .2s linear,background-color .2s linear,color .2s linear;
+  box-shadow: none;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <input
+        autoComplete="off"
+        className="c3"
+        formNoValidate={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onPaste={[Function]}
+        onTouchCancel={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        type="text"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Верстка компонента <Input> Дефолтная с иконкой 1`] = `
+.c4 {
+  box-sizing: border-box;
+  width: 100%;
+  border: 0;
+  border-radius: 2px;
+  color: #333333;
+  background-color: transparent;
+  outline: none;
+  text-align: left;
+  font: 400 14px "Open Sans",sans-serif;
+  padding: 10px 12px 10px 40px;
+  line-height: inherit;
+}
+
+.c4::-webkit-input-placeholder {
+  color: #8d8d8d;
+}
+
+.c4::-moz-placeholder {
+  color: #8d8d8d;
+}
+
+.c4:-ms-input-placeholder {
+  color: #8d8d8d;
+}
+
+.c4:-moz-placeholder {
+  color: #8d8d8d;
+}
+
+.c4[disabled] {
+  color: #8d8d8d;
+}
+
+.c2 {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  right: auto;
+  margin-top: -8px;
+  width: 16px;
+  height: 16px;
+  color: #8d8d8d;
+}
+
+.c0 {
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid #e1e1e1;
+  border-radius: 2px;
+  background-color: #fff;
+  -webkit-transition: box-shadow .25s ease-out,border-color .2s linear,background-color .2s linear,color .2s linear;
+  transition: box-shadow .25s ease-out,border-color .2s linear,background-color .2s linear,color .2s linear;
+  box-shadow: none;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <div>
+        Icon
+      </div>
+    </div>
+    <div
+      className="c3"
+    >
+      <input
+        autoComplete="off"
+        className="c4"
+        formNoValidate={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onPaste={[Function]}
+        onTouchCancel={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        type="text"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Верстка компонента <Input> Дефолтный статус 1`] = `
+.c3 {
+  box-sizing: border-box;
+  width: 100%;
+  border: 0;
+  border-radius: 2px;
+  color: #333333;
+  background-color: transparent;
+  outline: none;
+  text-align: left;
+  font: 400 14px "Open Sans",sans-serif;
+  padding: 10px 12px 10px 12px;
+  line-height: inherit;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #8d8d8d;
+}
+
+.c3::-moz-placeholder {
+  color: #8d8d8d;
+}
+
+.c3:-ms-input-placeholder {
+  color: #8d8d8d;
+}
+
+.c3:-moz-placeholder {
+  color: #8d8d8d;
+}
+
+.c3[disabled] {
+  color: #8d8d8d;
+}
+
+.c0 {
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid #e1e1e1;
+  border-radius: 2px;
+  background-color: #fff;
+  -webkit-transition: box-shadow .25s ease-out,border-color .2s linear,background-color .2s linear,color .2s linear;
+  transition: box-shadow .25s ease-out,border-color .2s linear,background-color .2s linear,color .2s linear;
+  box-shadow: none;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <input
+        autoComplete="off"
+        className="c3"
+        formNoValidate={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onPaste={[Function]}
+        onTouchCancel={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        type="text"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Верстка компонента <Input> Дополнительный CSS класс 1`] = `
+.c3 {
+  box-sizing: border-box;
+  width: 100%;
+  border: 0;
+  border-radius: 2px;
+  color: #333333;
+  background-color: transparent;
+  outline: none;
+  text-align: left;
+  font: 400 14px "Open Sans",sans-serif;
+  padding: 10px 12px 10px 12px;
+  line-height: inherit;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #8d8d8d;
+}
+
+.c3::-moz-placeholder {
+  color: #8d8d8d;
+}
+
+.c3:-ms-input-placeholder {
+  color: #8d8d8d;
+}
+
+.c3:-moz-placeholder {
+  color: #8d8d8d;
+}
+
+.c3[disabled] {
+  color: #8d8d8d;
+}
+
+.c0 {
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid #e1e1e1;
+  border-radius: 2px;
+  background-color: #fff;
+  -webkit-transition: box-shadow .25s ease-out,border-color .2s linear,background-color .2s linear,color .2s linear;
+  transition: box-shadow .25s ease-out,border-color .2s linear,background-color .2s linear,color .2s linear;
+  box-shadow: none;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+<div
+  className="custom c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <input
+        autoComplete="off"
+        className="c3"
+        formNoValidate={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onPaste={[Function]}
+        onTouchCancel={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        type="text"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Верстка компонента <Input> Неактивный 1`] = `
+.c3 {
+  box-sizing: border-box;
+  width: 100%;
+  border: 0;
+  border-radius: 2px;
+  color: #333333;
+  background-color: transparent;
+  outline: none;
+  text-align: left;
+  font: 400 14px "Open Sans",sans-serif;
+  padding: 10px 12px 10px 12px;
+  line-height: inherit;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #8d8d8d;
+}
+
+.c3::-moz-placeholder {
+  color: #8d8d8d;
+}
+
+.c3:-ms-input-placeholder {
+  color: #8d8d8d;
+}
+
+.c3:-moz-placeholder {
+  color: #8d8d8d;
+}
+
+.c3[disabled] {
+  color: #8d8d8d;
+}
+
+.c0 {
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid #e1e1e1;
+  border-radius: 2px;
+  background-color: #fff;
+  -webkit-transition: box-shadow .25s ease-out,border-color .2s linear,background-color .2s linear,color .2s linear;
+  transition: box-shadow .25s ease-out,border-color .2s linear,background-color .2s linear,color .2s linear;
+  box-shadow: none;
+  border-color: #e1e1e1;
+  background-color: #ececec;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+<div
+  className="c0"
+  disabled={true}
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <input
+        autoComplete="off"
+        className="c3"
+        disabled={true}
+        formNoValidate={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onPaste={[Function]}
+        onTouchCancel={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        type="text"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Верстка компонента <Input> Прокидываются неописанные свойства 1`] = `
+.c3 {
+  box-sizing: border-box;
+  width: 100%;
+  border: 0;
+  border-radius: 2px;
+  color: #333333;
+  background-color: transparent;
+  outline: none;
+  text-align: left;
+  font: 400 14px "Open Sans",sans-serif;
+  padding: 10px 12px 10px 12px;
+  line-height: inherit;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #8d8d8d;
+}
+
+.c3::-moz-placeholder {
+  color: #8d8d8d;
+}
+
+.c3:-ms-input-placeholder {
+  color: #8d8d8d;
+}
+
+.c3:-moz-placeholder {
+  color: #8d8d8d;
+}
+
+.c3[disabled] {
+  color: #8d8d8d;
+}
+
+.c0 {
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid #e1e1e1;
+  border-radius: 2px;
+  background-color: #fff;
+  -webkit-transition: box-shadow .25s ease-out,border-color .2s linear,background-color .2s linear,color .2s linear;
+  transition: box-shadow .25s ease-out,border-color .2s linear,background-color .2s linear,color .2s linear;
+  box-shadow: none;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+<div
+  className="c0"
+  style={
+    Object {
+      "margin": 16,
+    }
+  }
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <input
+        autoComplete="off"
+        className="c3"
+        formNoValidate={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onPaste={[Function]}
+        onTouchCancel={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        type="text"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Верстка компонента <Input> С иконкой слева 1`] = `
+.c4 {
+  box-sizing: border-box;
+  width: 100%;
+  border: 0;
+  border-radius: 2px;
+  color: #333333;
+  background-color: transparent;
+  outline: none;
+  text-align: left;
+  font: 400 14px "Open Sans",sans-serif;
+  padding: 10px 12px 10px 40px;
+  line-height: inherit;
+}
+
+.c4::-webkit-input-placeholder {
+  color: #8d8d8d;
+}
+
+.c4::-moz-placeholder {
+  color: #8d8d8d;
+}
+
+.c4:-ms-input-placeholder {
+  color: #8d8d8d;
+}
+
+.c4:-moz-placeholder {
+  color: #8d8d8d;
+}
+
+.c4[disabled] {
+  color: #8d8d8d;
+}
+
+.c2 {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  right: auto;
+  margin-top: -8px;
+  width: 16px;
+  height: 16px;
+  color: #8d8d8d;
+}
+
+.c0 {
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid #e1e1e1;
+  border-radius: 2px;
+  background-color: #fff;
+  -webkit-transition: box-shadow .25s ease-out,border-color .2s linear,background-color .2s linear,color .2s linear;
+  transition: box-shadow .25s ease-out,border-color .2s linear,background-color .2s linear,color .2s linear;
+  box-shadow: none;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <div>
+        Icon
+      </div>
+    </div>
+    <div
+      className="c3"
+    >
+      <input
+        autoComplete="off"
+        className="c4"
+        formNoValidate={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onPaste={[Function]}
+        onTouchCancel={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        type="text"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Верстка компонента <Input> С иконкой справа 1`] = `
+.c4 {
+  box-sizing: border-box;
+  width: 100%;
+  border: 0;
+  border-radius: 2px;
+  color: #333333;
+  background-color: transparent;
+  outline: none;
+  text-align: left;
+  font: 400 14px "Open Sans",sans-serif;
+  padding: 10px 40px 10px 12px;
+  line-height: inherit;
+}
+
+.c4::-webkit-input-placeholder {
+  color: #8d8d8d;
+}
+
+.c4::-moz-placeholder {
+  color: #8d8d8d;
+}
+
+.c4:-ms-input-placeholder {
+  color: #8d8d8d;
+}
+
+.c4:-moz-placeholder {
+  color: #8d8d8d;
+}
+
+.c4[disabled] {
+  color: #8d8d8d;
+}
+
+.c2 {
+  position: absolute;
+  top: 50%;
+  left: auto;
+  right: 12px;
+  margin-top: -8px;
+  width: 16px;
+  height: 16px;
+  color: #8d8d8d;
+}
+
+.c0 {
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid #e1e1e1;
+  border-radius: 2px;
+  background-color: #fff;
+  -webkit-transition: box-shadow .25s ease-out,border-color .2s linear,background-color .2s linear,color .2s linear;
+  transition: box-shadow .25s ease-out,border-color .2s linear,background-color .2s linear,color .2s linear;
+  box-shadow: none;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <div>
+        Icon
+      </div>
+    </div>
+    <div
+      className="c3"
+    >
+      <input
+        autoComplete="off"
+        className="c4"
+        formNoValidate={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onPaste={[Function]}
+        onTouchCancel={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        type="text"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Верстка компонента <Input> Статус с ошибкой 1`] = `
+.c3 {
+  box-sizing: border-box;
+  width: 100%;
+  border: 0;
+  border-radius: 2px;
+  color: #333333;
+  background-color: transparent;
+  outline: none;
+  text-align: left;
+  font: 400 14px "Open Sans",sans-serif;
+  padding: 10px 12px 10px 12px;
+  line-height: inherit;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #8d8d8d;
+}
+
+.c3::-moz-placeholder {
+  color: #8d8d8d;
+}
+
+.c3:-ms-input-placeholder {
+  color: #8d8d8d;
+}
+
+.c3:-moz-placeholder {
+  color: #8d8d8d;
+}
+
+.c3[disabled] {
+  color: #8d8d8d;
+}
+
+.c0 {
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid #e1e1e1;
+  border-radius: 2px;
+  background-color: #fff;
+  -webkit-transition: box-shadow .25s ease-out,border-color .2s linear,background-color .2s linear,color .2s linear;
+  transition: box-shadow .25s ease-out,border-color .2s linear,background-color .2s linear,color .2s linear;
+  box-shadow: none;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <input
+        autoComplete="off"
+        className="c3"
+        formNoValidate={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onPaste={[Function]}
+        onTouchCancel={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        type="text"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Верстка компонента <Input> Указан текст подскказки 1`] = `
+.c3 {
+  box-sizing: border-box;
+  width: 100%;
+  border: 0;
+  border-radius: 2px;
+  color: #333333;
+  background-color: transparent;
+  outline: none;
+  text-align: left;
+  font: 400 14px "Open Sans",sans-serif;
+  padding: 10px 12px 10px 12px;
+  line-height: inherit;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #8d8d8d;
+}
+
+.c3::-moz-placeholder {
+  color: #8d8d8d;
+}
+
+.c3:-ms-input-placeholder {
+  color: #8d8d8d;
+}
+
+.c3:-moz-placeholder {
+  color: #8d8d8d;
+}
+
+.c3[disabled] {
+  color: #8d8d8d;
+}
+
+.c0 {
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid #e1e1e1;
+  border-radius: 2px;
+  background-color: #fff;
+  -webkit-transition: box-shadow .25s ease-out,border-color .2s linear,background-color .2s linear,color .2s linear;
+  transition: box-shadow .25s ease-out,border-color .2s linear,background-color .2s linear,color .2s linear;
+  box-shadow: none;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <input
+        autoComplete="off"
+        className="c3"
+        formNoValidate={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onPaste={[Function]}
+        onTouchCancel={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        placeholder="Placeholder"
+        type="text"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Верстка компонента <Input> Указано значение 1`] = `
+.c3 {
+  box-sizing: border-box;
+  width: 100%;
+  border: 0;
+  border-radius: 2px;
+  color: #333333;
+  background-color: transparent;
+  outline: none;
+  text-align: left;
+  font: 400 14px "Open Sans",sans-serif;
+  padding: 10px 12px 10px 12px;
+  line-height: inherit;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #8d8d8d;
+}
+
+.c3::-moz-placeholder {
+  color: #8d8d8d;
+}
+
+.c3:-ms-input-placeholder {
+  color: #8d8d8d;
+}
+
+.c3:-moz-placeholder {
+  color: #8d8d8d;
+}
+
+.c3[disabled] {
+  color: #8d8d8d;
+}
+
+.c0 {
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid #e1e1e1;
+  border-radius: 2px;
+  background-color: #fff;
+  -webkit-transition: box-shadow .25s ease-out,border-color .2s linear,background-color .2s linear,color .2s linear;
+  transition: box-shadow .25s ease-out,border-color .2s linear,background-color .2s linear,color .2s linear;
+  box-shadow: none;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <input
+        autoComplete="off"
+        className="c3"
+        formNoValidate={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onPaste={[Function]}
+        onTouchCancel={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        type="text"
+        value="Value"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Верстка компонента <Input> Указано значение и поле в фокусе 1`] = `
+.c3 {
+  box-sizing: border-box;
+  width: 100%;
+  border: 0;
+  border-radius: 2px;
+  color: #333333;
+  background-color: transparent;
+  outline: none;
+  text-align: left;
+  font: 400 14px "Open Sans",sans-serif;
+  padding: 10px 12px 10px 12px;
+  line-height: inherit;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #8d8d8d;
+}
+
+.c3::-moz-placeholder {
+  color: #8d8d8d;
+}
+
+.c3:-ms-input-placeholder {
+  color: #8d8d8d;
+}
+
+.c3:-moz-placeholder {
+  color: #8d8d8d;
+}
+
+.c3[disabled] {
+  color: #8d8d8d;
+}
+
+.c0 {
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid #4786c8;
+  border-radius: 2px;
+  background-color: #fff;
+  -webkit-transition: box-shadow .25s ease-out,border-color .2s linear,background-color .2s linear,color .2s linear;
+  transition: box-shadow .25s ease-out,border-color .2s linear,background-color .2s linear,color .2s linear;
+  box-shadow: none;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <input
+        autoComplete="off"
+        className="c3"
+        formNoValidate={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onPaste={[Function]}
+        onTouchCancel={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        type="text"
+        value="Value"
+      />
+    </div>
+  </div>
+</div>
+`;

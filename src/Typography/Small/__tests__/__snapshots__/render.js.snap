@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Верстка компонента <Small> Второго уровня 1`] = `
+<small
+  className="small small--size2"
+>
+  Small text
+</small>
+`;
+
+exports[`Верстка компонента <Small> Дефолтная 1`] = `
+<small
+  className="small small--size1"
+>
+  Small text
+</small>
+`;
+
+exports[`Верстка компонента <Small> Первого уровня 1`] = `
+<small
+  className="small small--size1"
+>
+  Small text
+</small>
+`;
+
+exports[`Верстка компонента <Small> Третьего уровня 1`] = `
+<small
+  className="small small--size3"
+>
+  Small text
+</small>
+`;

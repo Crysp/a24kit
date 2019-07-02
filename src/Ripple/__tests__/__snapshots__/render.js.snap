@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Верстка компонента <Ripple> Дефолтная 1`] = `
+<span
+  className="sc-bdVaJa iyoPqx"
+  color="blue"
+/>
+`;

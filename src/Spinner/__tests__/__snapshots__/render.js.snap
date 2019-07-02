@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Верстка компонента <Spinner> Дефолтная 1`] = `
+<div
+  className="sc-bdVaJa bDunZN"
+>
+  <div
+    className="sc-bwzfXH ehJeiF"
+  />
+  <div
+    className="sc-bwzfXH ehJeiF"
+  />
+  <div
+    className="sc-bwzfXH ehJeiF"
+  />
+</div>
+`;

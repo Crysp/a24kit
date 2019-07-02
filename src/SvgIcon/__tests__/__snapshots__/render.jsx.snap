@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Верстка компонента <SvgIcon> Дефолтная 1`] = `
+<svg
+  aria-hidden="true"
+  className="sc-bdVaJa dTKkTG"
+  focusable="false"
+  size="auto"
+  style={Object {}}
+  viewBox="0 0 100 100"
+>
+  <rect
+    height="100"
+    width="100"
+  />
+</svg>
+`;
+
+exports[`Верстка компонента <SvgIcon> Размером 8x8 1`] = `
+<svg
+  aria-hidden="true"
+  className="sc-bdVaJa eRdBcm"
+  focusable="false"
+  size={8}
+  style={Object {}}
+  viewBox="0 0 100 100"
+>
+  <rect
+    height="100"
+    width="100"
+  />
+</svg>
+`;
+
+exports[`Верстка компонента <SvgIcon> Размером 12x12 1`] = `
+<svg
+  aria-hidden="true"
+  className="sc-bdVaJa clsejH"
+  focusable="false"
+  size={12}
+  style={Object {}}
+  viewBox="0 0 100 100"
+>
+  <rect
+    height="100"
+    width="100"
+  />
+</svg>
+`;
+
+exports[`Верстка компонента <SvgIcon> Размером 16x16 1`] = `
+<svg
+  aria-hidden="true"
+  className="sc-bdVaJa hDLkZN"
+  focusable="false"
+  size={16}
+  style={Object {}}
+  viewBox="0 0 100 100"
+>
+  <rect
+    height="100"
+    width="100"
+  />
+</svg>
+`;
+
+exports[`Верстка компонента <SvgIcon> Размером 24x24 1`] = `
+<svg
+  aria-hidden="true"
+  className="sc-bdVaJa ccArRa"
+  focusable="false"
+  size={24}
+  style={Object {}}
+  viewBox="0 0 100 100"
+>
+  <rect
+    height="100"
+    width="100"
+  />
+</svg>
+`;
+
+exports[`Верстка компонента <SvgIcon> Размером 32x32 1`] = `
+<svg
+  aria-hidden="true"
+  className="sc-bdVaJa iWSSjF"
+  focusable="false"
+  size={32}
+  style={Object {}}
+  viewBox="0 0 100 100"
+>
+  <rect
+    height="100"
+    width="100"
+  />
+</svg>
+`;
+
+exports[`Верстка компонента <SvgIcon> Размером с родителя 1`] = `
+<svg
+  aria-hidden="true"
+  className="sc-bdVaJa dTKkTG"
+  focusable="false"
+  size="auto"
+  style={Object {}}
+  viewBox="0 0 100 100"
+>
+  <rect
+    height="100"
+    width="100"
+  />
+</svg>
+`;
+
+exports[`Верстка компонента <SvgIcon> С дополнительным CSS классом 1`] = `
+<svg
+  aria-hidden="true"
+  className="custom sc-bdVaJa dTKkTG"
+  focusable="false"
+  size="auto"
+  style={Object {}}
+  viewBox="0 0 100 100"
+>
+  <rect
+    height="100"
+    width="100"
+  />
+</svg>
+`;

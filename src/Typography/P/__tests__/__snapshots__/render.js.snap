@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Верстка компонента <P> Второго уровня 1`] = `
+<p
+  className="p p--size2"
+>
+  Paragraph
+</p>
+`;
+
+exports[`Верстка компонента <P> Дефолтная 1`] = `
+<p
+  className="p p--size1"
+>
+  Paragraph
+</p>
+`;
+
+exports[`Верстка компонента <P> Первого уровня 1`] = `
+<p
+  className="p p--size1"
+>
+  Paragraph
+</p>
+`;
+
+exports[`Верстка компонента <P> Третьего уровня 1`] = `
+<p
+  className="p p--size3"
+>
+  Paragraph
+</p>
+`;
