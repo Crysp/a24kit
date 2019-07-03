@@ -3,7 +3,7 @@ const nodeExternals = require('webpack-node-externals');
 const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = (env, argv) => ({
-    entry: './src/index.js',
+    entry: './components/index.js',
     target: 'node',
     output: {
         path: path.join(__dirname, 'dist'),
