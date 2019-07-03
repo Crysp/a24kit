@@ -23,11 +23,15 @@ module.exports = (env, argv) => ({
                     },
                 },
             ],
+        }, {
+            test: /\.tsx?$/,
+            exclude: /node_modules/,
+            loader: 'ts-loader',
         }],
     },
     resolve: {
         modules: ['node_modules'],
-        extensions: ['.js', '.jsx'],
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
     },
     externals: [nodeExternals()],
     devtool: 'source-map',

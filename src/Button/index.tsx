@@ -1,12 +1,12 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { Spinner } from '..';
+import React, { MouseEvent, ReactNode } from 'react';
+import Spinner from '../Spinner';
 import Ripple, { RIPPLE_DURATION } from '../Ripple';
 import {
     StyledButton,
     ButtonText,
     IconWrapper,
 } from './styled';
+import Timeout = NodeJS.Timeout;
 
 
 const RIPPLE_COLOR_FOR_DEFAULT = {
@@ -24,73 +24,77 @@ const RIPPLE_COLOR_FOR_CONTRASTED = {
     gray: 'lightGray',
 };
 const RIPPLE_COLOR_FOR_INFO = 'pale';
-const SIDE_GUTTERS = ['12', '16', '20', '24', '28', '32', '36', '40', '44', '48'];
+
+type ButtonProps = {
+    /**
+     * Тэг
+     */
+    tagName: string
+    /**
+     * Текст кнопки
+     */
+    children: ReactNode
+    /**
+     * CSS класс для root элемента
+     */
+    className: string
+    /**
+     * Цвет
+     */
+    color: 'green' | 'blue' | 'red' | 'gold' | 'gray'
+    /**
+     * Изменяет отображение кнопки на контрастную
+     */
+    contrast: boolean
+    /**
+     * Изменяет отображение кнопки на прозрачную
+     */
+    hollow: boolean
+    /**
+     * Изменяет отображение кнопки на второстепенную
+     */
+    secondary: boolean
+    /**
+     * Изменяет отображение кнопки на информационную
+     */
+    info: boolean
+    /**
+     * Изменяет отображение кнопки на неактивную
+     */
+    disabled: boolean
+    /**
+     * Элемент внутри кнопки перед текстом. Обертка для него ограниченна 16х16 пикселей
+     */
+    icon: ReactNode
+    /**
+     * Элемент внутри кнопки после текста. Обертка для него ограниченна 16х16 пикселей
+     */
+    iconPosition: 'before' | 'after'
+    /**
+     * Показывает анимацию загрузки
+     */
+    loading: boolean
+    /**
+     * Отступы слева и справа
+     */
+    side: '12' | '16' | '20' | '24' | '28' | '32' | '36' | '40' | '44' | '48'
+    /**
+     * Обработчик клика
+     */
+    onClick(e: MouseEvent<HTMLElement>): void
+};
+type ButtonState = {
+    ripples: {
+        rid: number
+        top: number
+        left: number
+    }[],
+};
+
 /**
  * @develop
  */
-export default class Button extends React.Component {
-    static propTypes = {
-        /**
-         * Тэг
-         */
-        tagName: PropTypes.string,
-        /**
-         * Текст кнопки
-         */
-        children: PropTypes.node,
-        /**
-         * CSS класс для root элемента
-         */
-        className: PropTypes.string,
-        /**
-         * Цвет
-         */
-        color: PropTypes.oneOf(['green', 'blue', 'red', 'gold', 'gray']),
-        /**
-         * Изменяет отображение кнопки на контрастную
-         */
-        contrast: PropTypes.bool,
-        /**
-         * Изменяет отображение кнопки на прозрачную
-         */
-        hollow: PropTypes.bool,
-        /**
-         * Изменяет отображение кнопки на второстепенную
-         */
-        secondary: PropTypes.bool,
-        /**
-         * Изменяет отображение кнопки на информационную
-         */
-        info: PropTypes.bool,
-        /**
-         * Изменяет отображение кнопки на неактивную
-         */
-        disabled: PropTypes.bool,
-        /**
-         * Элемент внутри кнопки перед текстом. Обертка для него ограниченна 16х16 пикселей
-         */
-        icon: PropTypes.node,
-        /**
-         * Элемент внутри кнопки после текста. Обертка для него ограниченна 16х16 пикселей
-         */
-        iconPosition: PropTypes.oneOf(['before', 'after']),
-        /**
-         * Показывает анимацию загрузки
-         */
-        loading: PropTypes.bool,
-        /**
-         * Отступы слева и справа
-         */
-        side: PropTypes.oneOf([
-            ...SIDE_GUTTERS,
-            ...SIDE_GUTTERS.map(gutter => parseInt(gutter, 10)),
-        ]),
-        /**
-         * Обработчик клика
-         */
-        onClick: PropTypes.func,
-    };
-
+export default class Button extends React.Component<ButtonProps, ButtonState> {
     static defaultProps = {
         tagName: 'button',
         children: '',
@@ -108,26 +112,25 @@ export default class Button extends React.Component {
         onClick() {},
     };
 
-    constructor(props) {
-        super(props);
-        this.state = {
-            ripples: [],
-        };
-        this.rippleCycles = [];
-        this.RID = 0;
-    }
+    readonly state = {
+        ripples: [],
+    };
+
+    rippleCycles: Timeout[] = [];
+
+    RID = 0;
 
     componentWillUnmount() {
         this.rippleCycles.forEach(cycle => clearTimeout(cycle));
         this.rippleCycles = [];
     }
 
-    onRippleFinish = (_rid) => {
+    onRippleFinish = (_rid: number) => {
         const { ripples } = this.state;
         this.setState({ ripples: ripples.filter(({ rid }) => rid !== _rid) });
     };
 
-    onClick = (e) => {
+    onClick = (e: MouseEvent<HTMLElement>) => {
         if (this.props.disabled) return;
 
         this.initRipple(e);
@@ -159,7 +162,7 @@ export default class Button extends React.Component {
         return this.RID;
     }
 
-    initRipple(e) {
+    initRipple(e: MouseEvent<HTMLElement>) {
         const { hollow, disabled } = this.props;
         const { ripples } = this.state;
         if (hollow || disabled) return;
@@ -209,7 +212,7 @@ export default class Button extends React.Component {
             >
                 {this.renderRipple()}
                 {prependIcon && <IconWrapper>{icon}</IconWrapper>}
-                {children.length > 0 && (
+                {children && (
                     <ButtonText
                         prependIcon={prependIcon}
                         appendIcon={appendIcon}
