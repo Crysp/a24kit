@@ -1,15 +1,17 @@
 {
   "name": "a24kit",
-  "version": "1.0.2",
+  "version": "1.1.1",
   "main": "dist/lib.min.js",
   "module": "dist/es/index.js",
   "typings": "dist/es/index.d.ts",
   "repository": "https://github.com/Crysp/a24kit.git",
   "author": "Vitaliy Leonov <antiprogs@gmail.com>",
   "license": "MIT",
-  "private": true,
   "scripts": {
-    "build": "webpack --mode production"
+    "prepublish": "gulp compile",
+    "build": "webpack --mode production",
+    "docz:dev": "docz dev --typescript",
+    "docz:build": "docz build --typescript"
   },
   "peerDependencies": {
     "react": ">=16.0.0",
@@ -43,6 +45,8 @@
     "@types/react-dom": "^16.8.4",
     "@types/styled-components": "^4.1.16",
     "babel-loader": "^8.0.6",
+    "docz": "^1.2.0",
+    "docz-theme-default": "^1.2.0",
     "enzyme": "^3.10.0",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
