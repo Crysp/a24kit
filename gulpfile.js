@@ -3,6 +3,7 @@ const rimraf = require('rimraf');
 const ts = require('gulp-typescript');
 const merge2 = require('merge2');
 const babel = require('gulp-babel');
+const tsconfig = require('./tsconfig');
 
 const libDir = 'dist/lib';
 const esDir = 'dist/es';
@@ -14,18 +15,13 @@ function babelify(js, modules) {
 
 function compile(modules) {
     rimraf.sync(modules ? libDir : esDir);
-    const source = ['components/**/*.jsx', 'components/**/*.tsx', 'components/**/*.ts', 'typings/**/*.d.ts'];
+    const source = [
+        'components/**/*.tsx',
+        'components/**/*.ts',
+        'typings/**/*.d.ts'
+    ];
     const tsResult = gulp.src(source)
-        .pipe(
-            ts({
-                target: 'es5',
-                module: 'commonjs',
-                allowJs: true,
-                jsx: 'react',
-                allowSyntheticDefaultImports: true,
-                esModuleInterop: true,
-            })
-        );
+        .pipe(ts(tsconfig.compilerOptions));
     const tsFilesStream = babelify(tsResult.js, modules);
     const tsd = tsResult.dts.pipe(gulp.dest(modules ? libDir : esDir));
 

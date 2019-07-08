@@ -1,0 +1,23 @@
+"use strict";
+
+function _templateObject() {
+  var data = _taggedTemplateLiteral(["\n    .tabs {\n        font: 400 13px 'Open Sans', sans-serif;\n        line-height: 1.5;\n        color: ", ";\n        box-sizing: border-box;\n        margin: 0;\n        padding: 0;\n        list-style: none;\n        position: relative;\n        overflow: hidden;\n        zoom: 1;\n    }\n    .tabs-bar {\n        border-bottom: 1px solid #e8e8e8;\n        outline: none;\n    }\n    .tabs-nav {\n        position: relative;\n        box-sizing: border-box;\n        display: flex;\n        padding-left: 0;\n        margin: 0;\n        list-style: none;\n        transition: transform .3s cubic-bezier(.645,.045,.355,1);\n    }\n    .tabs-nav-wrap {\n        overflow: hidden;\n        margin-bottom: -1px;\n    }\n    .tabs-nav-scroll {\n        overflow: hidden;\n        white-space: nowrap;\n    }\n    .tabs-nav-container {\n        overflow: hidden;\n        font-size: 14px;\n        line-height: 1.5;\n        box-sizing: border-box;\n        position: relative;\n        white-space: nowrap;\n        margin-bottom: -1px;\n        zoom: 1;\n    }\n    .tabs-nav-container-scrolling {\n        padding-left: 32px;\n        padding-right: 32px;\n    }\n    .tabs-nav > div {\n        display: flex;\n    }\n    .tabs-tab {\n        position: relative;\n        box-sizing: border-box;\n        display: flex;\n        align-items: center;\n        height: 60px;\n        padding: 0 20px;\n        color: ", ";\n        font-weight: 600;\n        cursor: pointer;\n        text-decoration: none;\n        transition: color .3s cubic-bezier(.645,.045,.355,1);\n    }\n    .tabs-tab-active {\n        color: ", ";\n    }\n    .tabs-tab-next, .tabs-tab-prev {\n        position: absolute;\n        z-index: 2;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        width: 0;\n        height: 100%;\n        border: 0;\n        background-color: transparent;\n        cursor: pointer;\n        text-align: center;\n        color: rgba(0,0,0,.45);\n        transition:\n                width .3s cubic-bezier(.645,.045,.355,1),\n                opacity .3s cubic-bezier(.645,.045,.355,1),\n                color .3s cubic-bezier(.645,.045,.355,1);\n        opacity: 0;\n        user-select: none;\n        pointer-events: none;\n        &:hover {\n            color: ", ";\n        }\n    }\n    .tabs-tab-prev {\n        left: 0;\n    }\n    .tabs-tab-next {\n        right: 0;\n    }\n    .tabs-tab-arrow-show {\n        opacity: 1;\n        width: 32px;\n        height: 100%;\n        pointer-events: auto;\n    }\n    .tabs-tab-btn-disabled {\n        color: ", " !important;\n        cursor: not-allowed;\n    }\n    .tabs-ink-bar {\n        z-index: 1;\n        position: absolute;\n        left: 0;\n        bottom: 1px;\n        box-sizing: border-box;\n        height: 3px;\n        background-color: ", ";\n        transform-origin: 0 0;\n    }\n    .tabs-ink-bar-animated {\n        transition:\n                transform .3s cubic-bezier(.645,.045,.355,1),\n                width .3s cubic-bezier(.645,.045,.355,1);\n    }\n    .tabs-content {\n        width: 100%;\n    }\n    .tabs-content-animated {\n        display: flex;\n        flex-direction: row;\n        will-change: margin-left;\n        transition: margin-left .3s cubic-bezier(.645,.045,.355,1);\n    }\n    .tabs-tabpane {\n        flex-shrink: 0;\n        width: 100%;\n        transition: opacity .45s;\n        opacity: 1;\n    }\n    \n    .tabs-large .tabs-tab {\n        font-size: 16px;\n    }\n    \n    .tabs-no-animation .tabs-tabpane-inactive {\n        display: none;\n    }\n    \n    .tabs-prevIcon, .tabs-nextIcon {\n        width: 16px;\n        height: 16px;\n    }\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var styled_components_1 = require("styled-components");
+
+var config_1 = require("../config");
+
+exports.default = styled_components_1.createGlobalStyle(_templateObject(), config_1.Color.Coal, config_1.Color.Gray, config_1.Color.Coal, config_1.Color.Blue, config_1.Color.Pale, config_1.Color.Blue);
