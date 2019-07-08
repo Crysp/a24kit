@@ -6,7 +6,6 @@ import {
     ButtonText,
     IconWrapper,
 } from './styled';
-import Timeout = NodeJS.Timeout;
 
 
 const RIPPLE_COLOR_FOR_DEFAULT = {
@@ -29,7 +28,7 @@ type ButtonProps = {
     /**
      * Тэг
      */
-    tagName: string
+    tagName: keyof JSX.IntrinsicElements | React.ComponentType<any>
     /**
      * Текст кнопки
      */
@@ -41,7 +40,7 @@ type ButtonProps = {
     /**
      * Цвет
      */
-    color: 'green' | 'blue' | 'red' | 'gold' | 'gray'
+    color: string
     /**
      * Изменяет отображение кнопки на контрастную
      */
@@ -77,7 +76,7 @@ type ButtonProps = {
     /**
      * Отступы слева и справа
      */
-    side: '12' | '16' | '20' | '24' | '28' | '32' | '36' | '40' | '44' | '48'
+    side: number | string
     /**
      * Обработчик клика
      */
@@ -116,7 +115,7 @@ export default class Button extends React.Component<ButtonProps, ButtonState> {
         ripples: [],
     };
 
-    rippleCycles: Timeout[] = [];
+    rippleCycles: number[] = [];
 
     RID = 0;
 
@@ -213,10 +212,7 @@ export default class Button extends React.Component<ButtonProps, ButtonState> {
                 {this.renderRipple()}
                 {prependIcon && <IconWrapper>{icon}</IconWrapper>}
                 {children && (
-                    <ButtonText
-                        prependIcon={prependIcon}
-                        appendIcon={appendIcon}
-                    >
+                    <ButtonText prependIcon={!!prependIcon} appendIcon={!!appendIcon}>
                         {loading ? <Spinner /> : children}
                     </ButtonText>
                 )}
