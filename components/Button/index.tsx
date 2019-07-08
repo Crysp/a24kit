@@ -129,7 +129,7 @@ export default class Button extends React.Component<ButtonProps, ButtonState> {
         this.setState({ ripples: ripples.filter(({ rid }) => rid !== _rid) });
     };
 
-    onClick = (e: MouseEvent<HTMLElement>) => {
+    private onClick = (e: MouseEvent<HTMLElement>) => {
         if (this.props.disabled) return;
 
         this.initRipple(e);

@@ -3,7 +3,7 @@
   "version": "1.0.2",
   "main": "dist/lib.min.js",
   "module": "dist/es/index.js",
-  "typings": "dist/index.d.ts",
+  "typings": "dist/es/index.d.ts",
   "repository": "https://github.com/Crysp/a24kit.git",
   "author": "Vitaliy Leonov <antiprogs@gmail.com>",
   "license": "MIT",
