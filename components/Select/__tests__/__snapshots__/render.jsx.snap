@@ -1,0 +1,679 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Верстка компонента <Select> Дефолтная 1`] = `
+<div
+  className="sc-jTzLTM hjgndw"
+  disabled={false}
+  tabIndex={0}
+>
+  <div
+    className="sc-fjdhpX cReWxx"
+    disabled={false}
+    onClick={[Function]}
+    placeholder=""
+  >
+    <div
+      className="sc-jzJRlG ibmEyz"
+      disabled={false}
+    >
+      
+    </div>
+    <svg
+      aria-hidden="true"
+      className="sc-cSHVUG jKNxnO sc-bdVaJa hDLkZN"
+      disabled={false}
+      focusable="false"
+      size={16}
+      style={Object {}}
+      viewBox="0 0 16 16"
+    >
+      <path
+        d="M7.99973913,12 C7.7993913,12 7.59904348,11.9213846 7.44669565,11.7630769 L2.22930435,6.37846154 C1.92356522,6.06292308 1.92356522,5.55246154 2.22930435,5.23692308 C2.53504348,4.92138462 3.02965217,4.92138462 3.3353913,5.23692308 L7.99973913,10.0496923 L12.664087,5.23692308 C12.9698261,4.92138462 13.4644348,4.92138462 13.7701739,5.23692308 C14.075913,5.55246154 14.075913,6.06292308 13.7701739,6.37846154 L8.55278261,11.7630769 C8.40043478,11.9213846 8.20008696,12 7.99973913,12"
+      />
+    </svg>
+  </div>
+  <div
+    className="sc-kAzzGY lowivg"
+  >
+    <div
+      className="sc-bZQynM cCCPgu"
+      onClick={[Function]}
+      selected={false}
+    >
+      Label 1
+    </div>
+    <div
+      className="sc-bZQynM cCCPgu"
+      onClick={[Function]}
+      selected={false}
+    >
+      Label 2
+    </div>
+    <div
+      className="sc-bZQynM cCCPgu"
+      onClick={[Function]}
+      selected={false}
+    >
+      Label 3
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Верстка компонента <Select> Множественный выбор 1`] = `
+<div
+  className="sc-jTzLTM hjgndw"
+  disabled={false}
+  tabIndex={0}
+>
+  <div
+    className="sc-fjdhpX cReWxx"
+    disabled={false}
+    onClick={[Function]}
+    placeholder=""
+  >
+    <div
+      className="sc-jzJRlG ibmEyz"
+      disabled={false}
+    >
+      
+    </div>
+    <svg
+      aria-hidden="true"
+      className="sc-cSHVUG jKNxnO sc-bdVaJa hDLkZN"
+      disabled={false}
+      focusable="false"
+      size={16}
+      style={Object {}}
+      viewBox="0 0 16 16"
+    >
+      <path
+        d="M7.99973913,12 C7.7993913,12 7.59904348,11.9213846 7.44669565,11.7630769 L2.22930435,6.37846154 C1.92356522,6.06292308 1.92356522,5.55246154 2.22930435,5.23692308 C2.53504348,4.92138462 3.02965217,4.92138462 3.3353913,5.23692308 L7.99973913,10.0496923 L12.664087,5.23692308 C12.9698261,4.92138462 13.4644348,4.92138462 13.7701739,5.23692308 C14.075913,5.55246154 14.075913,6.06292308 13.7701739,6.37846154 L8.55278261,11.7630769 C8.40043478,11.9213846 8.20008696,12 7.99973913,12"
+      />
+    </svg>
+  </div>
+  <div
+    className="sc-kAzzGY lowivg"
+  >
+    <div
+      className="sc-bZQynM cCCPgu"
+      onClick={[Function]}
+      selected={false}
+    >
+      <div
+        className="sc-gzVnrw fUdNQC sc-ifAKCX gkzOrl"
+        color="blue"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <div
+          className="sc-bwzfXH dSdhvk"
+          disabled={false}
+        >
+          <div
+            className="sc-htpNat bqsoxB"
+            color="blue"
+            disabled={false}
+          >
+            <svg
+              aria-hidden="true"
+              className="sc-bxivhb himSXy sc-bdVaJa dTKkTG"
+              focusable="false"
+              size="auto"
+              style={Object {}}
+              viewBox="0 0 8 7"
+            >
+              <path
+                d="M2.59 7a.74.74 0 0 1-.5-.2L.21 4.95a.68.68 0 0 1 0-.98.7.7 0 0 1 .99 0l1.39 1.36L6.8 1.2a.7.7 0 0 1 .99 0c.28.27.28.71 0 .98L3.09 6.8a.74.74 0 0 1-.5.2"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="sc-EHOje hijERh"
+          disabled={false}
+        >
+          Label 1
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-bZQynM cCCPgu"
+      onClick={[Function]}
+      selected={false}
+    >
+      <div
+        className="sc-gzVnrw fUdNQC sc-ifAKCX gkzOrl"
+        color="blue"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <div
+          className="sc-bwzfXH dSdhvk"
+          disabled={false}
+        >
+          <div
+            className="sc-htpNat bqsoxB"
+            color="blue"
+            disabled={false}
+          >
+            <svg
+              aria-hidden="true"
+              className="sc-bxivhb himSXy sc-bdVaJa dTKkTG"
+              focusable="false"
+              size="auto"
+              style={Object {}}
+              viewBox="0 0 8 7"
+            >
+              <path
+                d="M2.59 7a.74.74 0 0 1-.5-.2L.21 4.95a.68.68 0 0 1 0-.98.7.7 0 0 1 .99 0l1.39 1.36L6.8 1.2a.7.7 0 0 1 .99 0c.28.27.28.71 0 .98L3.09 6.8a.74.74 0 0 1-.5.2"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="sc-EHOje hijERh"
+          disabled={false}
+        >
+          Label 2
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-bZQynM cCCPgu"
+      onClick={[Function]}
+      selected={false}
+    >
+      <div
+        className="sc-gzVnrw fUdNQC sc-ifAKCX gkzOrl"
+        color="blue"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <div
+          className="sc-bwzfXH dSdhvk"
+          disabled={false}
+        >
+          <div
+            className="sc-htpNat bqsoxB"
+            color="blue"
+            disabled={false}
+          >
+            <svg
+              aria-hidden="true"
+              className="sc-bxivhb himSXy sc-bdVaJa dTKkTG"
+              focusable="false"
+              size="auto"
+              style={Object {}}
+              viewBox="0 0 8 7"
+            >
+              <path
+                d="M2.59 7a.74.74 0 0 1-.5-.2L.21 4.95a.68.68 0 0 1 0-.98.7.7 0 0 1 .99 0l1.39 1.36L6.8 1.2a.7.7 0 0 1 .99 0c.28.27.28.71 0 .98L3.09 6.8a.74.74 0 0 1-.5.2"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="sc-EHOje hijERh"
+          disabled={false}
+        >
+          Label 3
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Верстка компонента <Select> Неактивный 1`] = `
+<div
+  className="sc-jTzLTM fOrfSc"
+  disabled={true}
+  tabIndex={0}
+>
+  <div
+    className="sc-fjdhpX flKXAP"
+    disabled={true}
+    onClick={[Function]}
+    placeholder=""
+  >
+    <div
+      className="sc-jzJRlG ehzHYv"
+      disabled={true}
+    >
+      
+    </div>
+    <svg
+      aria-hidden="true"
+      className="sc-cSHVUG RMSDI sc-bdVaJa hDLkZN"
+      disabled={true}
+      focusable="false"
+      size={16}
+      style={Object {}}
+      viewBox="0 0 16 16"
+    >
+      <path
+        d="M7.99973913,12 C7.7993913,12 7.59904348,11.9213846 7.44669565,11.7630769 L2.22930435,6.37846154 C1.92356522,6.06292308 1.92356522,5.55246154 2.22930435,5.23692308 C2.53504348,4.92138462 3.02965217,4.92138462 3.3353913,5.23692308 L7.99973913,10.0496923 L12.664087,5.23692308 C12.9698261,4.92138462 13.4644348,4.92138462 13.7701739,5.23692308 C14.075913,5.55246154 14.075913,6.06292308 13.7701739,6.37846154 L8.55278261,11.7630769 C8.40043478,11.9213846 8.20008696,12 7.99973913,12"
+      />
+    </svg>
+  </div>
+  <div
+    className="sc-kAzzGY lowivg"
+  >
+    <div
+      className="sc-bZQynM cCCPgu"
+      onClick={[Function]}
+      selected={false}
+    >
+      Label 1
+    </div>
+    <div
+      className="sc-bZQynM cCCPgu"
+      onClick={[Function]}
+      selected={false}
+    >
+      Label 2
+    </div>
+    <div
+      className="sc-bZQynM cCCPgu"
+      onClick={[Function]}
+      selected={false}
+    >
+      Label 3
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Верстка компонента <Select> С выбранным значением без множественного выбора 1`] = `
+<div
+  className="sc-jTzLTM hjgndw"
+  disabled={false}
+  tabIndex={0}
+>
+  <div
+    className="sc-fjdhpX cReWxx"
+    disabled={false}
+    onClick={[Function]}
+    placeholder=""
+  >
+    <div
+      className="sc-jzJRlG ibmEyz"
+      disabled={false}
+    >
+      Label 1
+    </div>
+    <svg
+      aria-hidden="true"
+      className="sc-cSHVUG jKNxnO sc-bdVaJa hDLkZN"
+      disabled={false}
+      focusable="false"
+      size={16}
+      style={Object {}}
+      viewBox="0 0 16 16"
+    >
+      <path
+        d="M7.99973913,12 C7.7993913,12 7.59904348,11.9213846 7.44669565,11.7630769 L2.22930435,6.37846154 C1.92356522,6.06292308 1.92356522,5.55246154 2.22930435,5.23692308 C2.53504348,4.92138462 3.02965217,4.92138462 3.3353913,5.23692308 L7.99973913,10.0496923 L12.664087,5.23692308 C12.9698261,4.92138462 13.4644348,4.92138462 13.7701739,5.23692308 C14.075913,5.55246154 14.075913,6.06292308 13.7701739,6.37846154 L8.55278261,11.7630769 C8.40043478,11.9213846 8.20008696,12 7.99973913,12"
+      />
+    </svg>
+  </div>
+  <div
+    className="sc-kAzzGY lowivg"
+  >
+    <div
+      className="sc-bZQynM heCUJq"
+      onClick={[Function]}
+      selected={true}
+    >
+      Label 1
+    </div>
+    <div
+      className="sc-bZQynM cCCPgu"
+      onClick={[Function]}
+      selected={false}
+    >
+      Label 2
+    </div>
+    <div
+      className="sc-bZQynM cCCPgu"
+      onClick={[Function]}
+      selected={false}
+    >
+      Label 3
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Верстка компонента <Select> С выбранными значениеми с множественным выбором 1`] = `
+<div
+  className="sc-jTzLTM hjgndw"
+  disabled={false}
+  tabIndex={0}
+>
+  <div
+    className="sc-fjdhpX cReWxx"
+    disabled={false}
+    onClick={[Function]}
+    placeholder=""
+  >
+    <div
+      className="sc-jzJRlG ibmEyz"
+      disabled={false}
+    >
+      Выбрано 2 пунктов
+    </div>
+    <svg
+      aria-hidden="true"
+      className="sc-cSHVUG jKNxnO sc-bdVaJa hDLkZN"
+      disabled={false}
+      focusable="false"
+      size={16}
+      style={Object {}}
+      viewBox="0 0 16 16"
+    >
+      <path
+        d="M7.99973913,12 C7.7993913,12 7.59904348,11.9213846 7.44669565,11.7630769 L2.22930435,6.37846154 C1.92356522,6.06292308 1.92356522,5.55246154 2.22930435,5.23692308 C2.53504348,4.92138462 3.02965217,4.92138462 3.3353913,5.23692308 L7.99973913,10.0496923 L12.664087,5.23692308 C12.9698261,4.92138462 13.4644348,4.92138462 13.7701739,5.23692308 C14.075913,5.55246154 14.075913,6.06292308 13.7701739,6.37846154 L8.55278261,11.7630769 C8.40043478,11.9213846 8.20008696,12 7.99973913,12"
+      />
+    </svg>
+  </div>
+  <div
+    className="sc-kAzzGY lowivg"
+  >
+    <div
+      className="sc-bZQynM cCCPgu"
+      onClick={[Function]}
+      selected={false}
+    >
+      <div
+        className="sc-gzVnrw fUdNQC sc-ifAKCX gkzOrl"
+        color="blue"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <div
+          className="sc-bwzfXH dgURRx"
+          disabled={false}
+        >
+          <div
+            className="sc-htpNat cawDMS"
+            color="blue"
+            disabled={false}
+          >
+            <svg
+              aria-hidden="true"
+              className="sc-bxivhb himSXy sc-bdVaJa dTKkTG"
+              focusable="false"
+              size="auto"
+              style={Object {}}
+              viewBox="0 0 8 7"
+            >
+              <path
+                d="M2.59 7a.74.74 0 0 1-.5-.2L.21 4.95a.68.68 0 0 1 0-.98.7.7 0 0 1 .99 0l1.39 1.36L6.8 1.2a.7.7 0 0 1 .99 0c.28.27.28.71 0 .98L3.09 6.8a.74.74 0 0 1-.5.2"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="sc-EHOje hijERh"
+          disabled={false}
+        >
+          Label 1
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-bZQynM cCCPgu"
+      onClick={[Function]}
+      selected={false}
+    >
+      <div
+        className="sc-gzVnrw fUdNQC sc-ifAKCX gkzOrl"
+        color="blue"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <div
+          className="sc-bwzfXH dgURRx"
+          disabled={false}
+        >
+          <div
+            className="sc-htpNat cawDMS"
+            color="blue"
+            disabled={false}
+          >
+            <svg
+              aria-hidden="true"
+              className="sc-bxivhb himSXy sc-bdVaJa dTKkTG"
+              focusable="false"
+              size="auto"
+              style={Object {}}
+              viewBox="0 0 8 7"
+            >
+              <path
+                d="M2.59 7a.74.74 0 0 1-.5-.2L.21 4.95a.68.68 0 0 1 0-.98.7.7 0 0 1 .99 0l1.39 1.36L6.8 1.2a.7.7 0 0 1 .99 0c.28.27.28.71 0 .98L3.09 6.8a.74.74 0 0 1-.5.2"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="sc-EHOje hijERh"
+          disabled={false}
+        >
+          Label 2
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-bZQynM cCCPgu"
+      onClick={[Function]}
+      selected={false}
+    >
+      <div
+        className="sc-gzVnrw fUdNQC sc-ifAKCX gkzOrl"
+        color="blue"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <div
+          className="sc-bwzfXH dSdhvk"
+          disabled={false}
+        >
+          <div
+            className="sc-htpNat bqsoxB"
+            color="blue"
+            disabled={false}
+          >
+            <svg
+              aria-hidden="true"
+              className="sc-bxivhb himSXy sc-bdVaJa dTKkTG"
+              focusable="false"
+              size="auto"
+              style={Object {}}
+              viewBox="0 0 8 7"
+            >
+              <path
+                d="M2.59 7a.74.74 0 0 1-.5-.2L.21 4.95a.68.68 0 0 1 0-.98.7.7 0 0 1 .99 0l1.39 1.36L6.8 1.2a.7.7 0 0 1 .99 0c.28.27.28.71 0 .98L3.09 6.8a.74.74 0 0 1-.5.2"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="sc-EHOje hijERh"
+          disabled={false}
+        >
+          Label 3
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Верстка компонента <Select> С полем для фильтрации вариантов 1`] = `
+<div
+  className="sc-jTzLTM hjgndw"
+  disabled={false}
+  tabIndex={0}
+>
+  <div
+    className="sc-fjdhpX cReWxx"
+    disabled={false}
+    onClick={[Function]}
+    placeholder=""
+  >
+    <div
+      className="sc-jzJRlG ibmEyz"
+      disabled={false}
+    >
+      
+    </div>
+    <svg
+      aria-hidden="true"
+      className="sc-cSHVUG jKNxnO sc-bdVaJa hDLkZN"
+      disabled={false}
+      focusable="false"
+      size={16}
+      style={Object {}}
+      viewBox="0 0 16 16"
+    >
+      <path
+        d="M7.99973913,12 C7.7993913,12 7.59904348,11.9213846 7.44669565,11.7630769 L2.22930435,6.37846154 C1.92356522,6.06292308 1.92356522,5.55246154 2.22930435,5.23692308 C2.53504348,4.92138462 3.02965217,4.92138462 3.3353913,5.23692308 L7.99973913,10.0496923 L12.664087,5.23692308 C12.9698261,4.92138462 13.4644348,4.92138462 13.7701739,5.23692308 C14.075913,5.55246154 14.075913,6.06292308 13.7701739,6.37846154 L8.55278261,11.7630769 C8.40043478,11.9213846 8.20008696,12 7.99973913,12"
+      />
+    </svg>
+  </div>
+  <div
+    className="sc-kAzzGY lowivg"
+  >
+    <div
+      className="sc-chPdSV eGFXBR sc-iwsKbI eKeVUs"
+    >
+      <div
+        className="sc-gZMcBi kgNwig"
+      >
+        <div
+          className="sc-dnqmqq jJTpbb"
+        >
+          <svg
+            aria-hidden="true"
+            className="sc-bdVaJa dTKkTG"
+            focusable="false"
+            size="auto"
+            style={Object {}}
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M-132.14,26.79L-135,24a7.2,7.2,0,0,0,1.67-4.62,7.28,7.28,0,0,0-7.3-7.26,7.28,7.28,0,0,0-7.3,7.26,7.28,7.28,0,0,0,7.3,7.26A7.29,7.29,0,0,0-136.06,25l2.86,2.85a0.75,0.75,0,0,0,.53.22,0.75,0.75,0,0,0,.53-0.22A0.75,0.75,0,0,0-132.14,26.79Zm-14.27-7.45a5.78,5.78,0,0,1,5.8-5.76,5.78,5.78,0,0,1,5.8,5.76,5.78,5.78,0,0,1-5.8,5.76A5.78,5.78,0,0,1-146.41,19.34Z"
+              transform="translate(147.91 -12.08)"
+            />
+          </svg>
+        </div>
+        <div
+          className="sc-gqjmRU jBDaDc"
+        >
+          <input
+            autoComplete="off"
+            className="sc-htoDjs kDMAYn"
+            formNoValidate={false}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onPaste={[Function]}
+            onTouchCancel={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            placeholder="Что ищем?"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-bZQynM cCCPgu"
+      onClick={[Function]}
+      selected={false}
+    >
+      Label 1
+    </div>
+    <div
+      className="sc-bZQynM cCCPgu"
+      onClick={[Function]}
+      selected={false}
+    >
+      Label 2
+    </div>
+    <div
+      className="sc-bZQynM cCCPgu"
+      onClick={[Function]}
+      selected={false}
+    >
+      Label 3
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Верстка компонента <Select> Текст заглушка 1`] = `
+<div
+  className="sc-jTzLTM hjgndw"
+  disabled={false}
+  tabIndex={0}
+>
+  <div
+    className="sc-fjdhpX cReWxx"
+    disabled={false}
+    onClick={[Function]}
+    placeholder="Choose something"
+  >
+    <div
+      className="sc-jzJRlG ibmEyz"
+      disabled={false}
+    >
+      Choose something
+    </div>
+    <svg
+      aria-hidden="true"
+      className="sc-cSHVUG jKNxnO sc-bdVaJa hDLkZN"
+      disabled={false}
+      focusable="false"
+      size={16}
+      style={Object {}}
+      viewBox="0 0 16 16"
+    >
+      <path
+        d="M7.99973913,12 C7.7993913,12 7.59904348,11.9213846 7.44669565,11.7630769 L2.22930435,6.37846154 C1.92356522,6.06292308 1.92356522,5.55246154 2.22930435,5.23692308 C2.53504348,4.92138462 3.02965217,4.92138462 3.3353913,5.23692308 L7.99973913,10.0496923 L12.664087,5.23692308 C12.9698261,4.92138462 13.4644348,4.92138462 13.7701739,5.23692308 C14.075913,5.55246154 14.075913,6.06292308 13.7701739,6.37846154 L8.55278261,11.7630769 C8.40043478,11.9213846 8.20008696,12 7.99973913,12"
+      />
+    </svg>
+  </div>
+  <div
+    className="sc-kAzzGY lowivg"
+  >
+    <div
+      className="sc-bZQynM cCCPgu"
+      onClick={[Function]}
+      selected={false}
+    >
+      Label 1
+    </div>
+    <div
+      className="sc-bZQynM cCCPgu"
+      onClick={[Function]}
+      selected={false}
+    >
+      Label 2
+    </div>
+    <div
+      className="sc-bZQynM cCCPgu"
+      onClick={[Function]}
+      selected={false}
+    >
+      Label 3
+    </div>
+  </div>
+</div>
+`;

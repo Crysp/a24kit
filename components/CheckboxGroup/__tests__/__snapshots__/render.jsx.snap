@@ -1,0 +1,610 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Верстка компонента <CheckboxGroup> Дефолтная 1`] = `
+<div
+  className="sc-bZQynM klYePH"
+>
+  <div
+    className="sc-gzVnrw loObfe"
+  >
+    <div
+      className="sc-ifAKCX gkzOrl"
+      color="blue"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <div
+        className="sc-bwzfXH dSdhvk"
+        disabled={false}
+      >
+        <div
+          className="sc-htpNat bqsoxB"
+          color="blue"
+          disabled={false}
+        >
+          <svg
+            aria-hidden="true"
+            className="sc-bxivhb himSXy sc-bdVaJa dTKkTG"
+            focusable="false"
+            size="auto"
+            style={Object {}}
+            viewBox="0 0 8 7"
+          >
+            <path
+              d="M2.59 7a.74.74 0 0 1-.5-.2L.21 4.95a.68.68 0 0 1 0-.98.7.7 0 0 1 .99 0l1.39 1.36L6.8 1.2a.7.7 0 0 1 .99 0c.28.27.28.71 0 .98L3.09 6.8a.74.74 0 0 1-.5.2"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        className="sc-EHOje hijERh"
+        disabled={false}
+      >
+        Label 1
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-gzVnrw loObfe"
+  >
+    <div
+      className="sc-ifAKCX gkzOrl"
+      color="blue"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <div
+        className="sc-bwzfXH dSdhvk"
+        disabled={false}
+      >
+        <div
+          className="sc-htpNat bqsoxB"
+          color="blue"
+          disabled={false}
+        >
+          <svg
+            aria-hidden="true"
+            className="sc-bxivhb himSXy sc-bdVaJa dTKkTG"
+            focusable="false"
+            size="auto"
+            style={Object {}}
+            viewBox="0 0 8 7"
+          >
+            <path
+              d="M2.59 7a.74.74 0 0 1-.5-.2L.21 4.95a.68.68 0 0 1 0-.98.7.7 0 0 1 .99 0l1.39 1.36L6.8 1.2a.7.7 0 0 1 .99 0c.28.27.28.71 0 .98L3.09 6.8a.74.74 0 0 1-.5.2"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        className="sc-EHOje hijERh"
+        disabled={false}
+      >
+        Label 2
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Верстка компонента <CheckboxGroup> Зеленые чекбоксы 1`] = `
+<div
+  className="sc-bZQynM klYePH"
+>
+  <div
+    className="sc-gzVnrw loObfe"
+  >
+    <div
+      className="sc-ifAKCX ipiSZX"
+      color="green"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <div
+        className="sc-bwzfXH dSdhvk"
+        disabled={false}
+      >
+        <div
+          className="sc-htpNat XIdQQ"
+          color="green"
+          disabled={false}
+        >
+          <svg
+            aria-hidden="true"
+            className="sc-bxivhb himSXy sc-bdVaJa dTKkTG"
+            focusable="false"
+            size="auto"
+            style={Object {}}
+            viewBox="0 0 8 7"
+          >
+            <path
+              d="M2.59 7a.74.74 0 0 1-.5-.2L.21 4.95a.68.68 0 0 1 0-.98.7.7 0 0 1 .99 0l1.39 1.36L6.8 1.2a.7.7 0 0 1 .99 0c.28.27.28.71 0 .98L3.09 6.8a.74.74 0 0 1-.5.2"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        className="sc-EHOje hijERh"
+        disabled={false}
+      >
+        Label 1
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-gzVnrw loObfe"
+  >
+    <div
+      className="sc-ifAKCX ipiSZX"
+      color="green"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <div
+        className="sc-bwzfXH dSdhvk"
+        disabled={false}
+      >
+        <div
+          className="sc-htpNat XIdQQ"
+          color="green"
+          disabled={false}
+        >
+          <svg
+            aria-hidden="true"
+            className="sc-bxivhb himSXy sc-bdVaJa dTKkTG"
+            focusable="false"
+            size="auto"
+            style={Object {}}
+            viewBox="0 0 8 7"
+          >
+            <path
+              d="M2.59 7a.74.74 0 0 1-.5-.2L.21 4.95a.68.68 0 0 1 0-.98.7.7 0 0 1 .99 0l1.39 1.36L6.8 1.2a.7.7 0 0 1 .99 0c.28.27.28.71 0 .98L3.09 6.8a.74.74 0 0 1-.5.2"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        className="sc-EHOje hijERh"
+        disabled={false}
+      >
+        Label 2
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Верстка компонента <CheckboxGroup> Неактивные чекбоксы 1`] = `
+<div
+  className="sc-bZQynM klYePH"
+>
+  <div
+    className="sc-gzVnrw loObfe"
+  >
+    <div
+      className="sc-ifAKCX epkeYp"
+      color="blue"
+      disabled={true}
+      onClick={[Function]}
+    >
+      <div
+        className="sc-bwzfXH cydZnF"
+        disabled={true}
+      >
+        <div
+          className="sc-htpNat lmPeAw"
+          color="blue"
+          disabled={true}
+        >
+          <svg
+            aria-hidden="true"
+            className="sc-bxivhb himSXy sc-bdVaJa dTKkTG"
+            focusable="false"
+            size="auto"
+            style={Object {}}
+            viewBox="0 0 8 7"
+          >
+            <path
+              d="M2.59 7a.74.74 0 0 1-.5-.2L.21 4.95a.68.68 0 0 1 0-.98.7.7 0 0 1 .99 0l1.39 1.36L6.8 1.2a.7.7 0 0 1 .99 0c.28.27.28.71 0 .98L3.09 6.8a.74.74 0 0 1-.5.2"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        className="sc-EHOje iBlIKd"
+        disabled={true}
+      >
+        Label 1
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-gzVnrw loObfe"
+  >
+    <div
+      className="sc-ifAKCX epkeYp"
+      color="blue"
+      disabled={true}
+      onClick={[Function]}
+    >
+      <div
+        className="sc-bwzfXH cydZnF"
+        disabled={true}
+      >
+        <div
+          className="sc-htpNat lmPeAw"
+          color="blue"
+          disabled={true}
+        >
+          <svg
+            aria-hidden="true"
+            className="sc-bxivhb himSXy sc-bdVaJa dTKkTG"
+            focusable="false"
+            size="auto"
+            style={Object {}}
+            viewBox="0 0 8 7"
+          >
+            <path
+              d="M2.59 7a.74.74 0 0 1-.5-.2L.21 4.95a.68.68 0 0 1 0-.98.7.7 0 0 1 .99 0l1.39 1.36L6.8 1.2a.7.7 0 0 1 .99 0c.28.27.28.71 0 .98L3.09 6.8a.74.74 0 0 1-.5.2"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        className="sc-EHOje iBlIKd"
+        disabled={true}
+      >
+        Label 2
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Верстка компонента <CheckboxGroup> Отмечаются выбранные 1`] = `
+<div
+  className="sc-bZQynM klYePH"
+>
+  <div
+    className="sc-gzVnrw loObfe"
+  >
+    <div
+      className="sc-ifAKCX gkzOrl"
+      color="blue"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <div
+        className="sc-bwzfXH dgURRx"
+        disabled={false}
+      >
+        <div
+          className="sc-htpNat cawDMS"
+          color="blue"
+          disabled={false}
+        >
+          <svg
+            aria-hidden="true"
+            className="sc-bxivhb himSXy sc-bdVaJa dTKkTG"
+            focusable="false"
+            size="auto"
+            style={Object {}}
+            viewBox="0 0 8 7"
+          >
+            <path
+              d="M2.59 7a.74.74 0 0 1-.5-.2L.21 4.95a.68.68 0 0 1 0-.98.7.7 0 0 1 .99 0l1.39 1.36L6.8 1.2a.7.7 0 0 1 .99 0c.28.27.28.71 0 .98L3.09 6.8a.74.74 0 0 1-.5.2"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        className="sc-EHOje hijERh"
+        disabled={false}
+      >
+        Label 1
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-gzVnrw loObfe"
+  >
+    <div
+      className="sc-ifAKCX gkzOrl"
+      color="blue"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <div
+        className="sc-bwzfXH dSdhvk"
+        disabled={false}
+      >
+        <div
+          className="sc-htpNat bqsoxB"
+          color="blue"
+          disabled={false}
+        >
+          <svg
+            aria-hidden="true"
+            className="sc-bxivhb himSXy sc-bdVaJa dTKkTG"
+            focusable="false"
+            size="auto"
+            style={Object {}}
+            viewBox="0 0 8 7"
+          >
+            <path
+              d="M2.59 7a.74.74 0 0 1-.5-.2L.21 4.95a.68.68 0 0 1 0-.98.7.7 0 0 1 .99 0l1.39 1.36L6.8 1.2a.7.7 0 0 1 .99 0c.28.27.28.71 0 .98L3.09 6.8a.74.74 0 0 1-.5.2"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        className="sc-EHOje hijERh"
+        disabled={false}
+      >
+        Label 2
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Верстка компонента <CheckboxGroup> Синие чекбоксы 1`] = `
+<div
+  className="sc-bZQynM klYePH"
+>
+  <div
+    className="sc-gzVnrw loObfe"
+  >
+    <div
+      className="sc-ifAKCX gkzOrl"
+      color="blue"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <div
+        className="sc-bwzfXH dSdhvk"
+        disabled={false}
+      >
+        <div
+          className="sc-htpNat bqsoxB"
+          color="blue"
+          disabled={false}
+        >
+          <svg
+            aria-hidden="true"
+            className="sc-bxivhb himSXy sc-bdVaJa dTKkTG"
+            focusable="false"
+            size="auto"
+            style={Object {}}
+            viewBox="0 0 8 7"
+          >
+            <path
+              d="M2.59 7a.74.74 0 0 1-.5-.2L.21 4.95a.68.68 0 0 1 0-.98.7.7 0 0 1 .99 0l1.39 1.36L6.8 1.2a.7.7 0 0 1 .99 0c.28.27.28.71 0 .98L3.09 6.8a.74.74 0 0 1-.5.2"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        className="sc-EHOje hijERh"
+        disabled={false}
+      >
+        Label 1
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-gzVnrw loObfe"
+  >
+    <div
+      className="sc-ifAKCX gkzOrl"
+      color="blue"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <div
+        className="sc-bwzfXH dSdhvk"
+        disabled={false}
+      >
+        <div
+          className="sc-htpNat bqsoxB"
+          color="blue"
+          disabled={false}
+        >
+          <svg
+            aria-hidden="true"
+            className="sc-bxivhb himSXy sc-bdVaJa dTKkTG"
+            focusable="false"
+            size="auto"
+            style={Object {}}
+            viewBox="0 0 8 7"
+          >
+            <path
+              d="M2.59 7a.74.74 0 0 1-.5-.2L.21 4.95a.68.68 0 0 1 0-.98.7.7 0 0 1 .99 0l1.39 1.36L6.8 1.2a.7.7 0 0 1 .99 0c.28.27.28.71 0 .98L3.09 6.8a.74.74 0 0 1-.5.2"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        className="sc-EHOje hijERh"
+        disabled={false}
+      >
+        Label 2
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Верстка компонента <CheckboxGroup> Темносиние чекбоксы 1`] = `
+<div
+  className="sc-bZQynM klYePH"
+>
+  <div
+    className="sc-gzVnrw loObfe"
+  >
+    <div
+      className="sc-ifAKCX kxdDuv"
+      color="deepBlue"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <div
+        className="sc-bwzfXH dSdhvk"
+        disabled={false}
+      >
+        <div
+          className="sc-htpNat eCUtym"
+          color="deepBlue"
+          disabled={false}
+        >
+          <svg
+            aria-hidden="true"
+            className="sc-bxivhb himSXy sc-bdVaJa dTKkTG"
+            focusable="false"
+            size="auto"
+            style={Object {}}
+            viewBox="0 0 8 7"
+          >
+            <path
+              d="M2.59 7a.74.74 0 0 1-.5-.2L.21 4.95a.68.68 0 0 1 0-.98.7.7 0 0 1 .99 0l1.39 1.36L6.8 1.2a.7.7 0 0 1 .99 0c.28.27.28.71 0 .98L3.09 6.8a.74.74 0 0 1-.5.2"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        className="sc-EHOje hijERh"
+        disabled={false}
+      >
+        Label 1
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-gzVnrw loObfe"
+  >
+    <div
+      className="sc-ifAKCX kxdDuv"
+      color="deepBlue"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <div
+        className="sc-bwzfXH dSdhvk"
+        disabled={false}
+      >
+        <div
+          className="sc-htpNat eCUtym"
+          color="deepBlue"
+          disabled={false}
+        >
+          <svg
+            aria-hidden="true"
+            className="sc-bxivhb himSXy sc-bdVaJa dTKkTG"
+            focusable="false"
+            size="auto"
+            style={Object {}}
+            viewBox="0 0 8 7"
+          >
+            <path
+              d="M2.59 7a.74.74 0 0 1-.5-.2L.21 4.95a.68.68 0 0 1 0-.98.7.7 0 0 1 .99 0l1.39 1.36L6.8 1.2a.7.7 0 0 1 .99 0c.28.27.28.71 0 .98L3.09 6.8a.74.74 0 0 1-.5.2"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        className="sc-EHOje hijERh"
+        disabled={false}
+      >
+        Label 2
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Верстка компонента <CheckboxGroup> Увеличенные чекбоксы 1`] = `
+<div
+  className="sc-bZQynM klYePH"
+>
+  <div
+    className="sc-gzVnrw loObfe"
+  >
+    <div
+      className="sc-ifAKCX gkzOrl"
+      color="blue"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <div
+        className="sc-bwzfXH dtKslU"
+        disabled={false}
+      >
+        <div
+          className="sc-htpNat bqsoxB"
+          color="blue"
+          disabled={false}
+        >
+          <svg
+            aria-hidden="true"
+            className="sc-bxivhb eJphdu sc-bdVaJa dTKkTG"
+            focusable="false"
+            size="auto"
+            style={Object {}}
+            viewBox="0 0 8 7"
+          >
+            <path
+              d="M2.59 7a.74.74 0 0 1-.5-.2L.21 4.95a.68.68 0 0 1 0-.98.7.7 0 0 1 .99 0l1.39 1.36L6.8 1.2a.7.7 0 0 1 .99 0c.28.27.28.71 0 .98L3.09 6.8a.74.74 0 0 1-.5.2"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        className="sc-EHOje hijERh"
+        disabled={false}
+      >
+        Label 1
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-gzVnrw loObfe"
+  >
+    <div
+      className="sc-ifAKCX gkzOrl"
+      color="blue"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <div
+        className="sc-bwzfXH dtKslU"
+        disabled={false}
+      >
+        <div
+          className="sc-htpNat bqsoxB"
+          color="blue"
+          disabled={false}
+        >
+          <svg
+            aria-hidden="true"
+            className="sc-bxivhb eJphdu sc-bdVaJa dTKkTG"
+            focusable="false"
+            size="auto"
+            style={Object {}}
+            viewBox="0 0 8 7"
+          >
+            <path
+              d="M2.59 7a.74.74 0 0 1-.5-.2L.21 4.95a.68.68 0 0 1 0-.98.7.7 0 0 1 .99 0l1.39 1.36L6.8 1.2a.7.7 0 0 1 .99 0c.28.27.28.71 0 .98L3.09 6.8a.74.74 0 0 1-.5.2"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        className="sc-EHOje hijERh"
+        disabled={false}
+      >
+        Label 2
+      </div>
+    </div>
+  </div>
+</div>
+`;

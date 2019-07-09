@@ -1,0 +1,196 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Верстка компонента <RadioButton> Дефолтная 1`] = `
+<div
+  className="sc-ifAKCX gPrOSU"
+  disabled={false}
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="sc-bdVaJa cjORyY"
+  >
+    <div
+      checked={false}
+      className="sc-bwzfXH jImmSN"
+      color="blue"
+      disabled={false}
+    />
+    <div
+      checked={false}
+      className="sc-htpNat jBPXNz"
+      color="blue"
+      disabled={false}
+    />
+  </div>
+</div>
+`;
+
+exports[`Верстка компонента <RadioButton> Зеленого цвета 1`] = `
+<div
+  className="sc-ifAKCX gPrOSU"
+  disabled={false}
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="sc-bdVaJa cjORyY"
+  >
+    <div
+      checked={false}
+      className="sc-bwzfXH jImmSN"
+      color="green"
+      disabled={false}
+    />
+    <div
+      checked={false}
+      className="sc-htpNat jNWshX"
+      color="green"
+      disabled={false}
+    />
+  </div>
+</div>
+`;
+
+exports[`Верстка компонента <RadioButton> Неактивная 1`] = `
+<div
+  className="sc-ifAKCX eeEfuI"
+  disabled={true}
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="sc-bdVaJa cjORyY"
+  >
+    <div
+      checked={false}
+      className="sc-bwzfXH gzwCBV"
+      color="blue"
+      disabled={true}
+    />
+    <div
+      checked={false}
+      className="sc-htpNat bqxraA"
+      color="blue"
+      disabled={true}
+    />
+  </div>
+</div>
+`;
+
+exports[`Верстка компонента <RadioButton> Отмеченная 1`] = `
+<div
+  className="sc-ifAKCX gPrOSU"
+  disabled={false}
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="sc-bdVaJa cjORyY"
+  >
+    <div
+      checked={true}
+      className="sc-bwzfXH cylRuW"
+      color="blue"
+      disabled={false}
+    />
+    <div
+      checked={true}
+      className="sc-htpNat jUKsXP"
+      color="blue"
+      disabled={false}
+    />
+  </div>
+</div>
+`;
+
+exports[`Верстка компонента <RadioButton> С подписью 1`] = `
+<div
+  className="sc-ifAKCX gPrOSU"
+  disabled={false}
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="sc-bdVaJa cjORyY"
+  >
+    <div
+      checked={false}
+      className="sc-bwzfXH jImmSN"
+      color="blue"
+      disabled={false}
+    />
+    <div
+      checked={false}
+      className="sc-htpNat jBPXNz"
+      color="blue"
+      disabled={false}
+    />
+  </div>
+  <div
+    className="sc-bxivhb izKojs"
+    disabled={false}
+  >
+    Label
+  </div>
+</div>
+`;
+
+exports[`Верстка компонента <RadioButton> Синего цвета 1`] = `
+<div
+  className="sc-ifAKCX gPrOSU"
+  disabled={false}
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="sc-bdVaJa cjORyY"
+  >
+    <div
+      checked={false}
+      className="sc-bwzfXH jImmSN"
+      color="blue"
+      disabled={false}
+    />
+    <div
+      checked={false}
+      className="sc-htpNat jBPXNz"
+      color="blue"
+      disabled={false}
+    />
+  </div>
+</div>
+`;
+
+exports[`Верстка компонента <RadioButton> Увеличенный размер 1`] = `
+<div
+  className="sc-ifAKCX gPrOSU"
+  disabled={false}
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="sc-bdVaJa ddwLo"
+  >
+    <div
+      checked={false}
+      className="sc-bwzfXH jImmSN"
+      color="blue"
+      disabled={false}
+    />
+    <div
+      checked={false}
+      className="sc-htpNat bgwKsE"
+      color="blue"
+      disabled={false}
+    />
+  </div>
+</div>
+`;

@@ -6,6 +6,7 @@ import {
     ButtonText,
     IconWrapper,
 } from './styled';
+import {defaultFormat} from "moment";
 
 
 const RIPPLE_COLOR_FOR_DEFAULT = {
@@ -24,7 +25,7 @@ const RIPPLE_COLOR_FOR_CONTRASTED = {
 };
 const RIPPLE_COLOR_FOR_INFO = 'pale';
 
-type ButtonProps = {
+export interface Props {
     /**
      * Тэг
      */
@@ -80,36 +81,38 @@ type ButtonProps = {
     /**
      * Обработчик клика
      */
-    onClick(e: MouseEvent<HTMLElement>): void
-};
-type ButtonState = {
+    onClick: (e: MouseEvent<HTMLElement>) => void
+}
+interface State {
     ripples: {
         rid: number
         top: number
         left: number
     }[],
+}
+
+const defaultProps = {
+    tagName: 'button',
+    children: '',
+    className: '',
+    color: 'green',
+    contrast: false,
+    hollow: false,
+    secondary: false,
+    info: false,
+    disabled: false,
+    icon: null,
+    iconPosition: 'before',
+    side: 12,
+    loading: false,
+    onClick() {},
 };
 
 /**
  * @develop
  */
-export default class Button extends React.Component<ButtonProps, ButtonState> {
-    static defaultProps = {
-        tagName: 'button',
-        children: '',
-        className: '',
-        color: 'green',
-        contrast: false,
-        hollow: false,
-        secondary: false,
-        info: false,
-        disabled: false,
-        icon: null,
-        iconPosition: 'before',
-        side: 12,
-        loading: false,
-        onClick() {},
-    };
+export default class Button extends React.Component<Props, State> {
+    static defaultProps = defaultProps;
 
     readonly state = {
         ripples: [],

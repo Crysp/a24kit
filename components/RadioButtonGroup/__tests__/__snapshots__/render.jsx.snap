@@ -1,0 +1,655 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Верстка компонента <RadioButtonGroup> Дефолтная 1`] = `
+<div
+  className="sc-EHOje kNXPDk"
+>
+  <div
+    className="sc-bZQynM kAwJPg"
+  >
+    <div
+      className="sc-ifAKCX gPrOSU"
+      disabled={false}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="sc-bdVaJa cjORyY"
+      >
+        <div
+          checked={false}
+          className="sc-bwzfXH jImmSN"
+          color="blue"
+          disabled={false}
+        />
+        <div
+          checked={false}
+          className="sc-htpNat jBPXNz"
+          color="blue"
+          disabled={false}
+        />
+      </div>
+      <div
+        className="sc-bxivhb izKojs"
+        disabled={false}
+      >
+        Option 1
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-bZQynM kAwJPg"
+  >
+    <div
+      className="sc-ifAKCX gPrOSU"
+      disabled={false}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="sc-bdVaJa cjORyY"
+      >
+        <div
+          checked={false}
+          className="sc-bwzfXH jImmSN"
+          color="blue"
+          disabled={false}
+        />
+        <div
+          checked={false}
+          className="sc-htpNat jBPXNz"
+          color="blue"
+          disabled={false}
+        />
+      </div>
+      <div
+        className="sc-bxivhb izKojs"
+        disabled={false}
+      >
+        Option 2
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-bZQynM kAwJPg"
+  >
+    <div
+      className="sc-ifAKCX gPrOSU"
+      disabled={false}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="sc-bdVaJa cjORyY"
+      >
+        <div
+          checked={false}
+          className="sc-bwzfXH jImmSN"
+          color="blue"
+          disabled={false}
+        />
+        <div
+          checked={false}
+          className="sc-htpNat jBPXNz"
+          color="blue"
+          disabled={false}
+        />
+      </div>
+      <div
+        className="sc-bxivhb izKojs"
+        disabled={false}
+      >
+        Option 3
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Верстка компонента <RadioButtonGroup> Зеленого цвета 1`] = `
+<div
+  className="sc-EHOje kNXPDk"
+>
+  <div
+    className="sc-bZQynM kAwJPg"
+  >
+    <div
+      className="sc-ifAKCX gPrOSU"
+      disabled={false}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="sc-bdVaJa cjORyY"
+      >
+        <div
+          checked={false}
+          className="sc-bwzfXH jImmSN"
+          color="green"
+          disabled={false}
+        />
+        <div
+          checked={false}
+          className="sc-htpNat jNWshX"
+          color="green"
+          disabled={false}
+        />
+      </div>
+      <div
+        className="sc-bxivhb izKojs"
+        disabled={false}
+      >
+        Option 1
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-bZQynM kAwJPg"
+  >
+    <div
+      className="sc-ifAKCX gPrOSU"
+      disabled={false}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="sc-bdVaJa cjORyY"
+      >
+        <div
+          checked={false}
+          className="sc-bwzfXH jImmSN"
+          color="green"
+          disabled={false}
+        />
+        <div
+          checked={false}
+          className="sc-htpNat jNWshX"
+          color="green"
+          disabled={false}
+        />
+      </div>
+      <div
+        className="sc-bxivhb izKojs"
+        disabled={false}
+      >
+        Option 2
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-bZQynM kAwJPg"
+  >
+    <div
+      className="sc-ifAKCX gPrOSU"
+      disabled={false}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="sc-bdVaJa cjORyY"
+      >
+        <div
+          checked={false}
+          className="sc-bwzfXH jImmSN"
+          color="green"
+          disabled={false}
+        />
+        <div
+          checked={false}
+          className="sc-htpNat jNWshX"
+          color="green"
+          disabled={false}
+        />
+      </div>
+      <div
+        className="sc-bxivhb izKojs"
+        disabled={false}
+      >
+        Option 3
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Верстка компонента <RadioButtonGroup> Неактивная 1`] = `
+<div
+  className="sc-EHOje kNXPDk"
+>
+  <div
+    className="sc-bZQynM kAwJPg"
+  >
+    <div
+      className="sc-ifAKCX eeEfuI"
+      disabled={true}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="sc-bdVaJa cjORyY"
+      >
+        <div
+          checked={false}
+          className="sc-bwzfXH gzwCBV"
+          color="blue"
+          disabled={true}
+        />
+        <div
+          checked={false}
+          className="sc-htpNat bqxraA"
+          color="blue"
+          disabled={true}
+        />
+      </div>
+      <div
+        className="sc-bxivhb kojMoR"
+        disabled={true}
+      >
+        Option 1
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-bZQynM kAwJPg"
+  >
+    <div
+      className="sc-ifAKCX eeEfuI"
+      disabled={true}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="sc-bdVaJa cjORyY"
+      >
+        <div
+          checked={false}
+          className="sc-bwzfXH gzwCBV"
+          color="blue"
+          disabled={true}
+        />
+        <div
+          checked={false}
+          className="sc-htpNat bqxraA"
+          color="blue"
+          disabled={true}
+        />
+      </div>
+      <div
+        className="sc-bxivhb kojMoR"
+        disabled={true}
+      >
+        Option 2
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-bZQynM kAwJPg"
+  >
+    <div
+      className="sc-ifAKCX eeEfuI"
+      disabled={true}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="sc-bdVaJa cjORyY"
+      >
+        <div
+          checked={false}
+          className="sc-bwzfXH gzwCBV"
+          color="blue"
+          disabled={true}
+        />
+        <div
+          checked={false}
+          className="sc-htpNat bqxraA"
+          color="blue"
+          disabled={true}
+        />
+      </div>
+      <div
+        className="sc-bxivhb kojMoR"
+        disabled={true}
+      >
+        Option 3
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Верстка компонента <RadioButtonGroup> С выбранным элементом 1`] = `
+<div
+  className="sc-EHOje kNXPDk"
+>
+  <div
+    className="sc-bZQynM kAwJPg"
+  >
+    <div
+      className="sc-ifAKCX gPrOSU"
+      disabled={false}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="sc-bdVaJa cjORyY"
+      >
+        <div
+          checked={true}
+          className="sc-bwzfXH cylRuW"
+          color="blue"
+          disabled={false}
+        />
+        <div
+          checked={true}
+          className="sc-htpNat jUKsXP"
+          color="blue"
+          disabled={false}
+        />
+      </div>
+      <div
+        className="sc-bxivhb izKojs"
+        disabled={false}
+      >
+        Option 1
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-bZQynM kAwJPg"
+  >
+    <div
+      className="sc-ifAKCX gPrOSU"
+      disabled={false}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="sc-bdVaJa cjORyY"
+      >
+        <div
+          checked={false}
+          className="sc-bwzfXH jImmSN"
+          color="blue"
+          disabled={false}
+        />
+        <div
+          checked={false}
+          className="sc-htpNat jBPXNz"
+          color="blue"
+          disabled={false}
+        />
+      </div>
+      <div
+        className="sc-bxivhb izKojs"
+        disabled={false}
+      >
+        Option 2
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-bZQynM kAwJPg"
+  >
+    <div
+      className="sc-ifAKCX gPrOSU"
+      disabled={false}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="sc-bdVaJa cjORyY"
+      >
+        <div
+          checked={false}
+          className="sc-bwzfXH jImmSN"
+          color="blue"
+          disabled={false}
+        />
+        <div
+          checked={false}
+          className="sc-htpNat jBPXNz"
+          color="blue"
+          disabled={false}
+        />
+      </div>
+      <div
+        className="sc-bxivhb izKojs"
+        disabled={false}
+      >
+        Option 3
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Верстка компонента <RadioButtonGroup> Синего цвета 1`] = `
+<div
+  className="sc-EHOje kNXPDk"
+>
+  <div
+    className="sc-bZQynM kAwJPg"
+  >
+    <div
+      className="sc-ifAKCX gPrOSU"
+      disabled={false}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="sc-bdVaJa cjORyY"
+      >
+        <div
+          checked={false}
+          className="sc-bwzfXH jImmSN"
+          color="blue"
+          disabled={false}
+        />
+        <div
+          checked={false}
+          className="sc-htpNat jBPXNz"
+          color="blue"
+          disabled={false}
+        />
+      </div>
+      <div
+        className="sc-bxivhb izKojs"
+        disabled={false}
+      >
+        Option 1
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-bZQynM kAwJPg"
+  >
+    <div
+      className="sc-ifAKCX gPrOSU"
+      disabled={false}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="sc-bdVaJa cjORyY"
+      >
+        <div
+          checked={false}
+          className="sc-bwzfXH jImmSN"
+          color="blue"
+          disabled={false}
+        />
+        <div
+          checked={false}
+          className="sc-htpNat jBPXNz"
+          color="blue"
+          disabled={false}
+        />
+      </div>
+      <div
+        className="sc-bxivhb izKojs"
+        disabled={false}
+      >
+        Option 2
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-bZQynM kAwJPg"
+  >
+    <div
+      className="sc-ifAKCX gPrOSU"
+      disabled={false}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="sc-bdVaJa cjORyY"
+      >
+        <div
+          checked={false}
+          className="sc-bwzfXH jImmSN"
+          color="blue"
+          disabled={false}
+        />
+        <div
+          checked={false}
+          className="sc-htpNat jBPXNz"
+          color="blue"
+          disabled={false}
+        />
+      </div>
+      <div
+        className="sc-bxivhb izKojs"
+        disabled={false}
+      >
+        Option 3
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Верстка компонента <RadioButtonGroup> Увеличенного размера 1`] = `
+<div
+  className="sc-EHOje kNXPDk"
+>
+  <div
+    className="sc-bZQynM kAwJPg"
+  >
+    <div
+      className="sc-ifAKCX gPrOSU"
+      disabled={false}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="sc-bdVaJa ddwLo"
+      >
+        <div
+          checked={false}
+          className="sc-bwzfXH jImmSN"
+          color="blue"
+          disabled={false}
+        />
+        <div
+          checked={false}
+          className="sc-htpNat bgwKsE"
+          color="blue"
+          disabled={false}
+        />
+      </div>
+      <div
+        className="sc-bxivhb izKojs"
+        disabled={false}
+      >
+        Option 1
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-bZQynM kAwJPg"
+  >
+    <div
+      className="sc-ifAKCX gPrOSU"
+      disabled={false}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="sc-bdVaJa ddwLo"
+      >
+        <div
+          checked={false}
+          className="sc-bwzfXH jImmSN"
+          color="blue"
+          disabled={false}
+        />
+        <div
+          checked={false}
+          className="sc-htpNat bgwKsE"
+          color="blue"
+          disabled={false}
+        />
+      </div>
+      <div
+        className="sc-bxivhb izKojs"
+        disabled={false}
+      >
+        Option 2
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-bZQynM kAwJPg"
+  >
+    <div
+      className="sc-ifAKCX gPrOSU"
+      disabled={false}
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="sc-bdVaJa ddwLo"
+      >
+        <div
+          checked={false}
+          className="sc-bwzfXH jImmSN"
+          color="blue"
+          disabled={false}
+        />
+        <div
+          checked={false}
+          className="sc-htpNat bgwKsE"
+          color="blue"
+          disabled={false}
+        />
+      </div>
+      <div
+        className="sc-bxivhb izKojs"
+        disabled={false}
+      >
+        Option 3
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -8,24 +8,23 @@ exports[`Верстка <Message/> Загрузка 1`] = `
     class="ui-message-notice-content"
   >
     <div
-      class="sc-bdVaJa KxIcs"
-      color="#333333"
+      class="sc-bxivhb dtvcyD"
       type="loading"
     >
       <div
-        class="sc-bwzfXH bBakrh"
+        class="sc-ifAKCX bkWMT"
       >
         <div
-          class="root"
+          class="sc-bwzfXH iywVHW"
         >
           <div
-            class="circle"
+            class="sc-htpNat dEfPuW"
           />
           <div
-            class="circle"
+            class="sc-htpNat dEfPuW"
           />
           <div
-            class="circle"
+            class="sc-htpNat dEfPuW"
           />
         </div>
       </div>
@@ -45,14 +44,12 @@ exports[`Верстка <Message/> Информационное 1`] = `
     class="ui-message-notice-content"
   >
     <div
-      class="sc-bdVaJa KxIcs"
-      color="#333333"
+      class="sc-bxivhb dtvcyD"
       type="info"
     >
       <svg
         aria-hidden="true"
-        class="icon  sc-htpNat eaaWYP"
-        fill="#4786c8"
+        class="sc-EHOje dTLrWt sc-bdVaJa dTKkTG"
         focusable="false"
         viewBox="0 0 16 16"
       >
@@ -88,14 +85,12 @@ exports[`Верстка <Message/> Ошибка 1`] = `
     class="ui-message-notice-content"
   >
     <div
-      class="sc-bdVaJa gBcCzi"
-      color="#ffffff"
+      class="sc-bxivhb hZMVDU"
       type="error"
     >
       <svg
         aria-hidden="true"
-        class="icon  sc-htpNat hDKfTS"
-        fill="#ffffff"
+        class="sc-EHOje gUESjC sc-bdVaJa dTKkTG"
         focusable="false"
         viewBox="0 0 6 18"
       >
@@ -119,14 +114,12 @@ exports[`Верстка <Message/> Предупреждение 1`] = `
     class="ui-message-notice-content"
   >
     <div
-      class="sc-bdVaJa hXuOWg"
-      color="#ffffff"
+      class="sc-bxivhb dbqosp"
       type="warning"
     >
       <svg
         aria-hidden="true"
-        class="icon  sc-htpNat hDKfTS"
-        fill="#ffffff"
+        class="sc-EHOje gUESjC sc-bdVaJa dTKkTG"
         focusable="false"
         viewBox="0 0 485.811 485.811"
       >
@@ -150,14 +143,12 @@ exports[`Верстка <Message/> Успешное 1`] = `
     class="ui-message-notice-content"
   >
     <div
-      class="sc-bdVaJa KxIcs"
-      color="#333333"
+      class="sc-bxivhb dtvcyD"
       type="success"
     >
       <svg
         aria-hidden="true"
-        class="icon  sc-htpNat joUyEl"
-        fill="#a2c679"
+        class="sc-EHOje rydpI sc-bdVaJa dTKkTG"
         focusable="false"
         viewBox="0 0 32.296 32.296"
       >

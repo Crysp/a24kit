@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Верстка компонента <P> Второго уровня 1`] = `
+<p
+  className="sc-bdVaJa eysPek"
+  size={2}
+>
+  Paragraph
+</p>
+`;
+
+exports[`Верстка компонента <P> Дефолтная 1`] = `
+<p
+  className="sc-bdVaJa flQhJN"
+  size={1}
+>
+  Paragraph
+</p>
+`;
+
+exports[`Верстка компонента <P> Первого уровня 1`] = `
+<p
+  className="sc-bdVaJa flQhJN"
+  size={1}
+>
+  Paragraph
+</p>
+`;
+
+exports[`Верстка компонента <P> Третьего уровня 1`] = `
+<p
+  className="sc-bdVaJa cSxZHz"
+  size={3}
+>
+  Paragraph
+</p>
+`;

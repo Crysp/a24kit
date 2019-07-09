@@ -53,6 +53,7 @@ export default class Select extends React.Component<Props> {
     };
 
     node = React.createRef<HTMLDivElement>();
+    options = React.createRef<HTMLDivElement>();
 
     componentDidMount() {
         document.addEventListener('click', this.onClickOuter);
@@ -63,7 +64,7 @@ export default class Select extends React.Component<Props> {
     }
 
     onClickOuter = (e) => {
-        if (!this.node.current!.contains(e.target)) {
+        if (this.node.current && !this.node.current!.contains(e.target)) {
             this.closeMenu();
         }
     };

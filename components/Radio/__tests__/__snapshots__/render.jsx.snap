@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Верстка компонента <Radio> Дефолтная 1`] = `
+<div
+  className="sc-bdVaJa cjORyY"
+>
+  <div
+    checked={false}
+    className="sc-bwzfXH jImmSN"
+    color="blue"
+    disabled={false}
+  />
+  <div
+    checked={false}
+    className="sc-htpNat jBPXNz"
+    color="blue"
+    disabled={false}
+  />
+</div>
+`;
+
+exports[`Верстка компонента <Radio> Зеленого цвета 1`] = `
+<div
+  className="sc-bdVaJa cjORyY"
+>
+  <div
+    checked={false}
+    className="sc-bwzfXH jImmSN"
+    color="green"
+    disabled={false}
+  />
+  <div
+    checked={false}
+    className="sc-htpNat jNWshX"
+    color="green"
+    disabled={false}
+  />
+</div>
+`;
+
+exports[`Верстка компонента <Radio> Неактивная 1`] = `
+<div
+  className="sc-bdVaJa cjORyY"
+>
+  <div
+    checked={false}
+    className="sc-bwzfXH gzwCBV"
+    color="blue"
+    disabled={true}
+  />
+  <div
+    checked={false}
+    className="sc-htpNat bqxraA"
+    color="blue"
+    disabled={true}
+  />
+</div>
+`;
+
+exports[`Верстка компонента <Radio> Отмеченная 1`] = `
+<div
+  className="sc-bdVaJa cjORyY"
+>
+  <div
+    checked={true}
+    className="sc-bwzfXH cylRuW"
+    color="blue"
+    disabled={false}
+  />
+  <div
+    checked={true}
+    className="sc-htpNat jUKsXP"
+    color="blue"
+    disabled={false}
+  />
+</div>
+`;
+
+exports[`Верстка компонента <Radio> Подсвеченная 1`] = `
+<div
+  className="sc-bdVaJa cjORyY"
+>
+  <div
+    checked={false}
+    className="sc-bwzfXH jCbxnv"
+    color="blue"
+    disabled={false}
+  />
+  <div
+    checked={false}
+    className="sc-htpNat kdmDSI"
+    color="blue"
+    disabled={false}
+  />
+</div>
+`;
+
+exports[`Верстка компонента <Radio> Синего цвета 1`] = `
+<div
+  className="sc-bdVaJa cjORyY"
+>
+  <div
+    checked={false}
+    className="sc-bwzfXH jImmSN"
+    color="blue"
+    disabled={false}
+  />
+  <div
+    checked={false}
+    className="sc-htpNat jBPXNz"
+    color="blue"
+    disabled={false}
+  />
+</div>
+`;
+
+exports[`Верстка компонента <Radio> Увеличенный размер 1`] = `
+<div
+  className="sc-bdVaJa ddwLo"
+>
+  <div
+    checked={false}
+    className="sc-bwzfXH jImmSN"
+    color="blue"
+    disabled={false}
+  />
+  <div
+    checked={false}
+    className="sc-htpNat bgwKsE"
+    color="blue"
+    disabled={false}
+  />
+</div>
+`;

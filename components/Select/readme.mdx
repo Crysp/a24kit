@@ -1,0 +1,32 @@
+---
+name: Select
+---
+
+import { Playground, Props } from 'docz';
+import Select from '.';
+
+# Select
+
+<Props of={Select} />
+
+## Basic usage
+
+<Playground>
+    <div style={{ width: 250 }}>
+        <Select
+            placeholder="Выбери что-нибудь"
+            options={[
+                { value: "1", label: "Пункт 1" },
+                { value: "2", label: "Пункт 2" },
+                { value: "3", label: "Пункт 3" },
+                { value: "4", label: "Пункт 4" },
+                { value: "5", label: "Пункт 5" },
+                { value: "6", label: "Пункт 6" },
+                { value: "7", label: "Пункт 7" },
+                { value: "8", label: "Пункт 8" },
+                { value: "9", label: "Пункт 9" },
+                { value: "10", label: "Пункт 10" },
+            ]}
+        />
+    </div>
+</Playground>

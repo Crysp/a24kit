@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Верстка компонента <H> Второго уровня 1`] = `
+<div
+  className="sc-bdVaJa YlrYX"
+  size={2}
+>
+  Header
+</div>
+`;
+
+exports[`Верстка компонента <H> Дефолтная 1`] = `
+<div
+  className="sc-bdVaJa iUiys"
+  size={1}
+>
+  Header
+</div>
+`;
+
+exports[`Верстка компонента <H> Первого уровня 1`] = `
+<div
+  className="sc-bdVaJa iUiys"
+  size={1}
+>
+  Header
+</div>
+`;
+
+exports[`Верстка компонента <H> Пятого уровня 1`] = `
+<div
+  className="sc-bdVaJa icmHGB"
+  size={5}
+>
+  Header
+</div>
+`;
+
+exports[`Верстка компонента <H> Третьего уровня 1`] = `
+<div
+  className="sc-bdVaJa gmhRMc"
+  size={3}
+>
+  Header
+</div>
+`;
+
+exports[`Верстка компонента <H> Четвертого уровня 1`] = `
+<div
+  className="sc-bdVaJa WJVvX"
+  size={4}
+>
+  Header
+</div>
+`;
+
+exports[`Верстка компонента <H> Шестого уровня 1`] = `
+<div
+  className="sc-bdVaJa cbbKRp"
+  size={6}
+>
+  Header
+</div>
+`;

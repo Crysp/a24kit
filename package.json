@@ -1,6 +1,6 @@
 {
   "name": "a24kit",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "main": "dist/lib.min.js",
   "module": "dist/es/index.js",
   "typings": "dist/es/index.d.ts",
@@ -8,10 +8,23 @@
   "author": "Vitaliy Leonov <antiprogs@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "prepublish": "gulp compile",
+    "prepublishOnly": "npm run test:badges && gulp compile",
+    "test": "jest",
+    "test:coverage": "npm test -- --coverage",
+    "test:badges": "npm run test:coverage  && jest-coverage-badges",
     "build": "webpack --mode production",
     "docz:dev": "docz dev --typescript",
     "docz:build": "docz build --typescript"
+  },
+  "jest": {
+    "setupFiles": [
+      "<rootDir>/utils/jestEnv.js"
+    ],
+    "coverageReporters": [
+      "json-summary",
+      "text",
+      "lcov"
+    ]
   },
   "peerDependencies": {
     "react": ">=16.0.0",
@@ -37,10 +50,12 @@
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/plugin-proposal-class-properties": "^7.4.4",
-    "@babel/plugin-proposal-export-default-from": "^7.2.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/enzyme": "^3.10.1",
+    "@types/jest": "^24.0.15",
     "@types/react": "^16.8.22",
     "@types/react-dom": "^16.8.4",
     "@types/styled-components": "^4.1.16",
@@ -48,10 +63,13 @@
     "docz": "^1.2.0",
     "docz-theme-default": "^1.2.0",
     "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
     "gulp-typescript": "^5.0.1",
     "jest": "^24.8.0",
+    "jest-coverage-badges": "^1.1.2",
+    "jest-styled-components": "^6.3.3",
     "merge2": "^1.2.3",
     "react-test-renderer": "^16.8.6",
     "rimraf": "^2.6.3",

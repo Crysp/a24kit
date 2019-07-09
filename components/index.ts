@@ -1,68 +1,32 @@
 import * as Icon from './Icon';
-import Amount, { format as formatPrice } from './Amount';
-import AmountInput from './AmountInput';
-import Avatar from './Avatar';
-import AvatarCard from './AvatarCard';
-import Badge from './Badge';
-import Button from './Button';
-import Calendar from './Calendar';
-import Catch from './Catch';
-import Checkbox from './Checkbox';
-import CheckboxGroup from './CheckboxGroup';
-import Collapse from './Collapse';
-import SvgIcon from './SvgIcon';
-import Input from './Input';
-import Link from './Link';
-import LinkButton from './LinkButton';
-import Logo from './Logo';
-import Message from './Message';
-import Modal from './Modal';
-import Notification from './Notification';
-import Popover from './Popover';
-import RadioButton from './RadioButton';
-import RadioButtonGroup from './RadioButtonGroup';
-import Rating from './Rating';
-import RatingNPS from './RatingNPS';
-import Select from './Select';
-import Spinner from './Spinner';
-import Status from './Status';
-import Tabs from './Tabs';
-import { H, P, Small } from './Typography';
-import SocialButtonGroup from './SocialButtonGroup';
-
-export {
-    formatPrice,
-    Amount,
-    AmountInput,
-    Avatar,
-    AvatarCard,
-    Badge,
-    Button,
-    Calendar,
-    Catch,
-    Checkbox,
-    CheckboxGroup,
-    Collapse,
-    SvgIcon,
-    Input,
-    Link,
-    LinkButton,
-    Logo,
-    Message,
-    Modal,
-    Notification,
-    Popover,
-    RadioButton,
-    RadioButtonGroup,
-    Rating,
-    RatingNPS,
-    Select,
-    Spinner,
-    Status,
-    Tabs,
-    H,
-    P,
-    Small,
-    SocialButtonGroup,
-    Icon,
-};
+export const Icons = Icon;
+export { default as Amount, format as formatPrice } from './Amount';
+export { default as AmountInput } from './AmountInput';
+export { default as Avatar } from './Avatar';
+export { default as AvatarCard } from './AvatarCard';
+export { default as Badge } from './Badge';
+export { default as Button } from './Button';
+export { default as Calendar } from './Calendar';
+export { default as Catch } from './Catch';
+export { default as Checkbox } from './Checkbox';
+export { default as CheckboxGroup } from './CheckboxGroup';
+export { default as Collapse } from './Collapse';
+export { default as SvgIcon } from './SvgIcon';
+export { default as Input } from './Input';
+export { default as Link } from './Link';
+export { default as LinkButton } from './LinkButton';
+export { default as Logo } from './Logo';
+export { default as Message } from './Message';
+export { default as Modal } from './Modal';
+export { default as Notification } from './Notification';
+export { default as Popover } from './Popover';
+export { default as RadioButton } from './RadioButton';
+export { default as RadioButtonGroup } from './RadioButtonGroup';
+export { default as Rating } from './Rating';
+export { default as RatingNPS } from './RatingNPS';
+export { default as Select } from './Select';
+export { default as Spinner } from './Spinner';
+export { default as Status } from './Status';
+export { default as Tabs } from './Tabs';
+export { H, P, Small } from './Typography';
+export { default as SocialButtonGroup } from './SocialButtonGroup';
