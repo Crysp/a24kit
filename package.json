@@ -8,10 +8,8 @@
   "author": "Vitaliy Leonov <antiprogs@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "prepublishOnly": "npm run test:badges && gulp compile",
-    "test": "jest",
-    "test:coverage": "npm test -- --coverage",
-    "test:badges": "npm run test:coverage  && jest-coverage-badges",
+    "prepublishOnly": "npm run test && gulp compile",
+    "test": "jest --coverage --testResultsProcessor=jest-teamcity-reporter",
     "lint:js": "eslint \"components/**/*.[jt]s?(x)\" --format ./node_modules/eslint-teamcity/index.js",
     "lint:style": "stylelint \"components/**/styled.[jt]s?(x)\" --custom-formatter node_modules/stylelint-teamcity-formatter",
     "build": "webpack --mode production",
