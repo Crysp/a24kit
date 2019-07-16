@@ -1,9 +1,5 @@
 # A24 Kit
 
-![Coverage badge][coverage-badge]
-
-[coverage-badge]: coverage/badge-lines.svg
-
 Набор UI элементов для проектов Автор24
 
 ```npm install --save a24kit```

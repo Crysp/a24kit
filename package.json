@@ -18,6 +18,12 @@
     "docz:dev": "docz dev --typescript",
     "docz:build": "docz build --typescript"
   },
+  "eslint-teamcity": {
+    "reporter": "inspections",
+    "report-name": "My ESLint Violations",
+    "error-statistics-name": "My ESLint Error Count",
+    "warning-statistics-name": "My ESLint Warning Count"
+  },
   "eslintIgnore": [
     "**/__tests__/**/*.*"
   ],
