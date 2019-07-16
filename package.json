@@ -20,9 +20,9 @@
   },
   "eslint-teamcity": {
     "reporter": "inspections",
-    "report-name": "My ESLint Violations",
-    "error-statistics-name": "My ESLint Error Count",
-    "warning-statistics-name": "My ESLint Warning Count"
+    "report-name": "ESLint Violations",
+    "error-statistics-name": "ESLint Error Count",
+    "warning-statistics-name": "ESLint Warning Count"
   },
   "eslintIgnore": [
     "**/__tests__/**/*.*"
