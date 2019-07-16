@@ -11,7 +11,7 @@ const theme = {
         xl: 50,
         xxl: 58,
     },
-    color: palette
+    color: palette,
 };
 
 export default theme;
