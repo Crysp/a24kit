@@ -12,7 +12,7 @@ export interface Props {
  */
 export default class H extends React.PureComponent<Props> {
     static defaultProps = {
-        size: 1
+        size: 1,
     };
 
     render() {

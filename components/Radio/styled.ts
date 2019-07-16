@@ -1,6 +1,5 @@
 import styled, { css } from 'styled-components';
 import { Color } from '../config';
-import React from "react";
 
 interface WrapperProps {
     large?: boolean

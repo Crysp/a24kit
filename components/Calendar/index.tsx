@@ -24,7 +24,6 @@ export interface Props {
 
 const DAYS_IN_WEEK = 7;
 const SATURDAY = 6;
-const SUNDAY = 0;
 /**
  * @version 1.0.0
  */

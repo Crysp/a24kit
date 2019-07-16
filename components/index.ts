@@ -1,4 +1,5 @@
 import * as Icon from './Icon';
+
 export const Icons = Icon;
 export { default as Amount, format as formatPrice } from './Amount';
 export { default as AmountInput } from './AmountInput';

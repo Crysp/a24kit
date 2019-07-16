@@ -59,7 +59,9 @@ interface FieldProps {
     centered?: boolean
 }
 
-export const Field = styled(({ onProcessInputEvent, ...props }) => <input {...props} />)<FieldProps>`
+export const Field = styled(
+    ({ onProcessInputEvent, ...props }) => <input {...props} />,
+)<FieldProps>`
     box-sizing: border-box;
     width: 100%;
     border: 0;
@@ -68,13 +70,13 @@ export const Field = styled(({ onProcessInputEvent, ...props }) => <input {...pr
     background-color: transparent;
     outline: none;
     text-align: ${props => (props.centered ? 'center' : 'left')};
-    
     ${fieldSize}
-    
-    &::-webkit-input-placeholder { color: ${Color.Gray} }
-    &::-moz-placeholder { color: ${Color.Gray} }
-    &:-ms-input-placeholder { color: ${Color.Gray} }
-    &:-moz-placeholder { color: ${Color.Gray} }
+
+    &::-webkit-input-placeholder { color: ${Color.Gray}; }
+    &::-moz-placeholder { color: ${Color.Gray}; }
+    &:-ms-input-placeholder { color: ${Color.Gray}; }
+    &:-moz-placeholder { color: ${Color.Gray}; }
+
     &[disabled] {
         color: ${Color.Gray};
     }
@@ -112,10 +114,10 @@ export const Wrapper = styled.div<WrapperProps>`
     display: inline-block;
     border-radius: 2px;
     transition:
-        box-shadow .25s ease-out,
-        border-color .2s linear,
-        background-color .2s linear,
-        color .2s linear;
+        box-shadow 0.25s ease-out,
+        border-color 0.2s linear,
+        background-color 0.2s linear,
+        color 0.2s linear;
     border-style: solid;
     border-width: ${props => (props.boundless ? 0 : 1)}px;
     border-color: ${wrapperBorderColor};

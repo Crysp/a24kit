@@ -22,7 +22,7 @@ export default class Catch extends React.Component<Props, State> {
         code: null,
     };
 
-    componentDidCatch(error, errorInfo) {
+    componentDidCatch() {
         this.setState({
             hasError: true,
         });

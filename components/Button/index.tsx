@@ -6,7 +6,6 @@ import {
     ButtonText,
     IconWrapper,
 } from './styled';
-import {defaultFormat} from "moment";
 
 
 const RIPPLE_COLOR_FOR_DEFAULT = {

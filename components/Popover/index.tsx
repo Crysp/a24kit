@@ -8,7 +8,10 @@ export interface Props {
     children: React.ReactNode
     defaultVisible: boolean
     visible: boolean
-    placement: 'left' | 'right' | 'top' | 'bottom' | 'topLeft' | 'topRight' | 'bottomLeft' | 'bottomRight'
+    placement: (
+        'left' | 'right' | 'top' | 'bottom' | 'topLeft'
+        | 'topRight' | 'bottomLeft' | 'bottomRight'
+    )
     color: 'white' | 'red' | 'blue'
     raised: boolean
     transitionName: string | object

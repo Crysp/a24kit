@@ -52,7 +52,7 @@ interface AmountProps {
  * @develop
  * @version 1.0.0
  */
-export default class Amount extends React.Component<AmountProps> {
+export default class Amount extends React.PureComponent<AmountProps> {
     static defaultProps = {
         value: 0,
         minority: 0,

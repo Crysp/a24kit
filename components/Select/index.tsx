@@ -53,6 +53,7 @@ export default class Select extends React.Component<Props> {
     };
 
     node = React.createRef<HTMLDivElement>();
+
     options = React.createRef<HTMLDivElement>();
 
     componentDidMount() {
@@ -162,7 +163,6 @@ export default class Select extends React.Component<Props> {
             tabIndex,
             disabled,
             className,
-            onChange,
             ...other
         } = this.props;
         const { isOpened, searchLabel } = this.state;
