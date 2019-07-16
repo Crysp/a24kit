@@ -2,7 +2,7 @@
 
 exports[`Верстка компонента <P> Второго уровня 1`] = `
 <p
-  className="sc-bdVaJa eysPek"
+  className="sc-bdVaJa jybYuA"
   size={2}
 >
   Paragraph
@@ -11,7 +11,7 @@ exports[`Верстка компонента <P> Второго уровня 1`]
 
 exports[`Верстка компонента <P> Дефолтная 1`] = `
 <p
-  className="sc-bdVaJa flQhJN"
+  className="sc-bdVaJa fVTZdn"
   size={1}
 >
   Paragraph
@@ -20,7 +20,7 @@ exports[`Верстка компонента <P> Дефолтная 1`] = `
 
 exports[`Верстка компонента <P> Первого уровня 1`] = `
 <p
-  className="sc-bdVaJa flQhJN"
+  className="sc-bdVaJa fVTZdn"
   size={1}
 >
   Paragraph
@@ -29,7 +29,7 @@ exports[`Верстка компонента <P> Первого уровня 1`]
 
 exports[`Верстка компонента <P> Третьего уровня 1`] = `
 <p
-  className="sc-bdVaJa cSxZHz"
+  className="sc-bdVaJa bvLwTA"
   size={3}
 >
   Paragraph

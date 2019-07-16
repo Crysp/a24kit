@@ -14,17 +14,17 @@ exports[`Верстка компонента <CheckboxGroup> Дефолтная 
       onClick={[Function]}
     >
       <div
-        className="sc-bwzfXH dSdhvk"
+        className="sc-bwzfXH hwFftZ"
         disabled={false}
       >
         <div
-          className="sc-htpNat bqsoxB"
+          className="sc-htpNat jAdlEj"
           color="blue"
           disabled={false}
         >
           <svg
             aria-hidden="true"
-            className="sc-bxivhb himSXy sc-bdVaJa dTKkTG"
+            className="sc-bxivhb keOSFw sc-bdVaJa dTKkTG"
             focusable="false"
             size="auto"
             style={Object {}}
@@ -54,17 +54,17 @@ exports[`Верстка компонента <CheckboxGroup> Дефолтная 
       onClick={[Function]}
     >
       <div
-        className="sc-bwzfXH dSdhvk"
+        className="sc-bwzfXH hwFftZ"
         disabled={false}
       >
         <div
-          className="sc-htpNat bqsoxB"
+          className="sc-htpNat jAdlEj"
           color="blue"
           disabled={false}
         >
           <svg
             aria-hidden="true"
-            className="sc-bxivhb himSXy sc-bdVaJa dTKkTG"
+            className="sc-bxivhb keOSFw sc-bdVaJa dTKkTG"
             focusable="false"
             size="auto"
             style={Object {}}
@@ -101,17 +101,17 @@ exports[`Верстка компонента <CheckboxGroup> Зеленые че
       onClick={[Function]}
     >
       <div
-        className="sc-bwzfXH dSdhvk"
+        className="sc-bwzfXH hwFftZ"
         disabled={false}
       >
         <div
-          className="sc-htpNat XIdQQ"
+          className="sc-htpNat PhFqh"
           color="green"
           disabled={false}
         >
           <svg
             aria-hidden="true"
-            className="sc-bxivhb himSXy sc-bdVaJa dTKkTG"
+            className="sc-bxivhb keOSFw sc-bdVaJa dTKkTG"
             focusable="false"
             size="auto"
             style={Object {}}
@@ -141,17 +141,17 @@ exports[`Верстка компонента <CheckboxGroup> Зеленые че
       onClick={[Function]}
     >
       <div
-        className="sc-bwzfXH dSdhvk"
+        className="sc-bwzfXH hwFftZ"
         disabled={false}
       >
         <div
-          className="sc-htpNat XIdQQ"
+          className="sc-htpNat PhFqh"
           color="green"
           disabled={false}
         >
           <svg
             aria-hidden="true"
-            className="sc-bxivhb himSXy sc-bdVaJa dTKkTG"
+            className="sc-bxivhb keOSFw sc-bdVaJa dTKkTG"
             focusable="false"
             size="auto"
             style={Object {}}
@@ -188,17 +188,17 @@ exports[`Верстка компонента <CheckboxGroup> Неактивны�
       onClick={[Function]}
     >
       <div
-        className="sc-bwzfXH cydZnF"
+        className="sc-bwzfXH jwtyQG"
         disabled={true}
       >
         <div
-          className="sc-htpNat lmPeAw"
+          className="sc-htpNat kjsDPm"
           color="blue"
           disabled={true}
         >
           <svg
             aria-hidden="true"
-            className="sc-bxivhb himSXy sc-bdVaJa dTKkTG"
+            className="sc-bxivhb keOSFw sc-bdVaJa dTKkTG"
             focusable="false"
             size="auto"
             style={Object {}}
@@ -228,17 +228,17 @@ exports[`Верстка компонента <CheckboxGroup> Неактивны�
       onClick={[Function]}
     >
       <div
-        className="sc-bwzfXH cydZnF"
+        className="sc-bwzfXH jwtyQG"
         disabled={true}
       >
         <div
-          className="sc-htpNat lmPeAw"
+          className="sc-htpNat kjsDPm"
           color="blue"
           disabled={true}
         >
           <svg
             aria-hidden="true"
-            className="sc-bxivhb himSXy sc-bdVaJa dTKkTG"
+            className="sc-bxivhb keOSFw sc-bdVaJa dTKkTG"
             focusable="false"
             size="auto"
             style={Object {}}
@@ -275,17 +275,17 @@ exports[`Верстка компонента <CheckboxGroup> Отмечаютс�
       onClick={[Function]}
     >
       <div
-        className="sc-bwzfXH dgURRx"
+        className="sc-bwzfXH jEjhxV"
         disabled={false}
       >
         <div
-          className="sc-htpNat cawDMS"
+          className="sc-htpNat gqgabp"
           color="blue"
           disabled={false}
         >
           <svg
             aria-hidden="true"
-            className="sc-bxivhb himSXy sc-bdVaJa dTKkTG"
+            className="sc-bxivhb keOSFw sc-bdVaJa dTKkTG"
             focusable="false"
             size="auto"
             style={Object {}}
@@ -315,17 +315,17 @@ exports[`Верстка компонента <CheckboxGroup> Отмечаютс�
       onClick={[Function]}
     >
       <div
-        className="sc-bwzfXH dSdhvk"
+        className="sc-bwzfXH hwFftZ"
         disabled={false}
       >
         <div
-          className="sc-htpNat bqsoxB"
+          className="sc-htpNat jAdlEj"
           color="blue"
           disabled={false}
         >
           <svg
             aria-hidden="true"
-            className="sc-bxivhb himSXy sc-bdVaJa dTKkTG"
+            className="sc-bxivhb keOSFw sc-bdVaJa dTKkTG"
             focusable="false"
             size="auto"
             style={Object {}}
@@ -362,17 +362,17 @@ exports[`Верстка компонента <CheckboxGroup> Синие чекб
       onClick={[Function]}
     >
       <div
-        className="sc-bwzfXH dSdhvk"
+        className="sc-bwzfXH hwFftZ"
         disabled={false}
       >
         <div
-          className="sc-htpNat bqsoxB"
+          className="sc-htpNat jAdlEj"
           color="blue"
           disabled={false}
         >
           <svg
             aria-hidden="true"
-            className="sc-bxivhb himSXy sc-bdVaJa dTKkTG"
+            className="sc-bxivhb keOSFw sc-bdVaJa dTKkTG"
             focusable="false"
             size="auto"
             style={Object {}}
@@ -402,17 +402,17 @@ exports[`Верстка компонента <CheckboxGroup> Синие чекб
       onClick={[Function]}
     >
       <div
-        className="sc-bwzfXH dSdhvk"
+        className="sc-bwzfXH hwFftZ"
         disabled={false}
       >
         <div
-          className="sc-htpNat bqsoxB"
+          className="sc-htpNat jAdlEj"
           color="blue"
           disabled={false}
         >
           <svg
             aria-hidden="true"
-            className="sc-bxivhb himSXy sc-bdVaJa dTKkTG"
+            className="sc-bxivhb keOSFw sc-bdVaJa dTKkTG"
             focusable="false"
             size="auto"
             style={Object {}}
@@ -449,17 +449,17 @@ exports[`Верстка компонента <CheckboxGroup> Темносини�
       onClick={[Function]}
     >
       <div
-        className="sc-bwzfXH dSdhvk"
+        className="sc-bwzfXH hwFftZ"
         disabled={false}
       >
         <div
-          className="sc-htpNat eCUtym"
+          className="sc-htpNat fWwtbt"
           color="deepBlue"
           disabled={false}
         >
           <svg
             aria-hidden="true"
-            className="sc-bxivhb himSXy sc-bdVaJa dTKkTG"
+            className="sc-bxivhb keOSFw sc-bdVaJa dTKkTG"
             focusable="false"
             size="auto"
             style={Object {}}
@@ -489,17 +489,17 @@ exports[`Верстка компонента <CheckboxGroup> Темносини�
       onClick={[Function]}
     >
       <div
-        className="sc-bwzfXH dSdhvk"
+        className="sc-bwzfXH hwFftZ"
         disabled={false}
       >
         <div
-          className="sc-htpNat eCUtym"
+          className="sc-htpNat fWwtbt"
           color="deepBlue"
           disabled={false}
         >
           <svg
             aria-hidden="true"
-            className="sc-bxivhb himSXy sc-bdVaJa dTKkTG"
+            className="sc-bxivhb keOSFw sc-bdVaJa dTKkTG"
             focusable="false"
             size="auto"
             style={Object {}}
@@ -536,17 +536,17 @@ exports[`Верстка компонента <CheckboxGroup> Увеличенн�
       onClick={[Function]}
     >
       <div
-        className="sc-bwzfXH dtKslU"
+        className="sc-bwzfXH cdMfyU"
         disabled={false}
       >
         <div
-          className="sc-htpNat bqsoxB"
+          className="sc-htpNat jAdlEj"
           color="blue"
           disabled={false}
         >
           <svg
             aria-hidden="true"
-            className="sc-bxivhb eJphdu sc-bdVaJa dTKkTG"
+            className="sc-bxivhb jIZPyy sc-bdVaJa dTKkTG"
             focusable="false"
             size="auto"
             style={Object {}}
@@ -576,17 +576,17 @@ exports[`Верстка компонента <CheckboxGroup> Увеличенн�
       onClick={[Function]}
     >
       <div
-        className="sc-bwzfXH dtKslU"
+        className="sc-bwzfXH cdMfyU"
         disabled={false}
       >
         <div
-          className="sc-htpNat bqsoxB"
+          className="sc-htpNat jAdlEj"
           color="blue"
           disabled={false}
         >
           <svg
             aria-hidden="true"
-            className="sc-bxivhb eJphdu sc-bdVaJa dTKkTG"
+            className="sc-bxivhb jIZPyy sc-bdVaJa dTKkTG"
             focusable="false"
             size="auto"
             style={Object {}}

@@ -2,7 +2,7 @@
 
 exports[`Верстка компонента <H> Второго уровня 1`] = `
 <div
-  className="sc-bdVaJa YlrYX"
+  className="sc-bdVaJa SodCZ"
   size={2}
 >
   Header
@@ -11,7 +11,7 @@ exports[`Верстка компонента <H> Второго уровня 1`]
 
 exports[`Верстка компонента <H> Дефолтная 1`] = `
 <div
-  className="sc-bdVaJa iUiys"
+  className="sc-bdVaJa bhcTtE"
   size={1}
 >
   Header
@@ -20,7 +20,7 @@ exports[`Верстка компонента <H> Дефолтная 1`] = `
 
 exports[`Верстка компонента <H> Первого уровня 1`] = `
 <div
-  className="sc-bdVaJa iUiys"
+  className="sc-bdVaJa bhcTtE"
   size={1}
 >
   Header
@@ -29,7 +29,7 @@ exports[`Верстка компонента <H> Первого уровня 1`]
 
 exports[`Верстка компонента <H> Пятого уровня 1`] = `
 <div
-  className="sc-bdVaJa icmHGB"
+  className="sc-bdVaJa kiVQoS"
   size={5}
 >
   Header
@@ -38,7 +38,7 @@ exports[`Верстка компонента <H> Пятого уровня 1`] =
 
 exports[`Верстка компонента <H> Третьего уровня 1`] = `
 <div
-  className="sc-bdVaJa gmhRMc"
+  className="sc-bdVaJa fghSOI"
   size={3}
 >
   Header
@@ -47,7 +47,7 @@ exports[`Верстка компонента <H> Третьего уровня 1
 
 exports[`Верстка компонента <H> Четвертого уровня 1`] = `
 <div
-  className="sc-bdVaJa WJVvX"
+  className="sc-bdVaJa kLzYLg"
   size={4}
 >
   Header
@@ -56,7 +56,7 @@ exports[`Верстка компонента <H> Четвертого уровн
 
 exports[`Верстка компонента <H> Шестого уровня 1`] = `
 <div
-  className="sc-bdVaJa cbbKRp"
+  className="sc-bdVaJa hOyYxA"
   size={6}
 >
   Header

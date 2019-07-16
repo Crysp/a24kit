@@ -2,7 +2,7 @@
 
 exports[`Верстка компонента <Select.Option> Выбранный 1`] = `
 <div
-  className="sc-bZQynM heCUJq"
+  className="sc-bZQynM gaDzhd"
   onClick={[Function]}
   selected={true}
 >
@@ -12,7 +12,7 @@ exports[`Верстка компонента <Select.Option> Выбранный 
 
 exports[`Верстка компонента <Select.Option> Дефолтная 1`] = `
 <div
-  className="sc-bZQynM cCCPgu"
+  className="sc-bZQynM ggkiUa"
   onClick={[Function]}
   selected={false}
 >
@@ -22,7 +22,7 @@ exports[`Верстка компонента <Select.Option> Дефолтная 
 
 exports[`Верстка компонента <Select.Option> С выбранным чекбоксом 1`] = `
 <div
-  className="sc-bZQynM cCCPgu"
+  className="sc-bZQynM ggkiUa"
   onClick={[Function]}
   selected={false}
 >
@@ -33,17 +33,17 @@ exports[`Верстка компонента <Select.Option> С выбранны
     onClick={[Function]}
   >
     <div
-      className="sc-bwzfXH dgURRx"
+      className="sc-bwzfXH jEjhxV"
       disabled={false}
     >
       <div
-        className="sc-htpNat cawDMS"
+        className="sc-htpNat gqgabp"
         color="blue"
         disabled={false}
       >
         <svg
           aria-hidden="true"
-          className="sc-bxivhb himSXy sc-bdVaJa dTKkTG"
+          className="sc-bxivhb keOSFw sc-bdVaJa dTKkTG"
           focusable="false"
           size="auto"
           style={Object {}}
@@ -67,7 +67,7 @@ exports[`Верстка компонента <Select.Option> С выбранны
 
 exports[`Верстка компонента <Select.Option> С чекбоксом 1`] = `
 <div
-  className="sc-bZQynM cCCPgu"
+  className="sc-bZQynM ggkiUa"
   onClick={[Function]}
   selected={false}
 >
@@ -78,17 +78,17 @@ exports[`Верстка компонента <Select.Option> С чекбоксо
     onClick={[Function]}
   >
     <div
-      className="sc-bwzfXH dSdhvk"
+      className="sc-bwzfXH hwFftZ"
       disabled={false}
     >
       <div
-        className="sc-htpNat bqsoxB"
+        className="sc-htpNat jAdlEj"
         color="blue"
         disabled={false}
       >
         <svg
           aria-hidden="true"
-          className="sc-bxivhb himSXy sc-bdVaJa dTKkTG"
+          className="sc-bxivhb keOSFw sc-bdVaJa dTKkTG"
           focusable="false"
           size="auto"
           style={Object {}}
