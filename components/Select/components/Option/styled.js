@@ -8,7 +8,8 @@ export const Wrapper = styled.div`
     line-height: 20px;
     cursor: pointer;
     background-color: ${props => (props.selected ? '#e4edf7' : Color.White)};
-    transition: background-color .12s linear;
+    transition: background-color 0.12s linear;
+
     &:hover {
         background-color: ${Color.Zircon};
     }

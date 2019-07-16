@@ -7,6 +7,7 @@ const getSize = (props) => {
             font-size: 24px;
             line-height: 32px;
             font-weight: 400;
+
             &:empty {
                 ${skeleton('40%', '24px', 'pale')}
             }
@@ -17,6 +18,7 @@ const getSize = (props) => {
             font-size: 18px;
             line-height: 28px;
             font-weight: 400;
+
             &:empty {
                 ${skeleton('40%', '18px', 'pale')}
             }
@@ -27,6 +29,7 @@ const getSize = (props) => {
             font-size: 16px;
             line-height: 24px;
             font-weight: 600;
+
             &:empty {
                 ${skeleton('40%', '16px', 'pale')}
             }
@@ -37,6 +40,7 @@ const getSize = (props) => {
             font-size: 14px;
             line-height: 20px;
             font-weight: 600;
+
             &:empty {
                 ${skeleton('40%', '14px', 'pale')}
             }
@@ -47,6 +51,7 @@ const getSize = (props) => {
             font-size: 13px;
             line-height: 20px;
             font-weight: 400;
+
             &:empty {
                 ${skeleton('40%', '13px', 'pale')}
             }
@@ -56,6 +61,7 @@ const getSize = (props) => {
         font-size: 24px;
         line-height: 32px;
         font-weight: 600;
+
         &:empty {
             ${skeleton('40%', '24px', 'pale')}
         }

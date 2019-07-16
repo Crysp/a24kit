@@ -1,4 +1,5 @@
-import styled, { css } from 'styled-components';
+import { css } from 'styled-components';
+import { styled } from '../../theme';
 import { Color } from '../config';
 
 function mapColor(props) {
@@ -22,6 +23,7 @@ function smallSize(round) {
         font: 700 10px "Open Sans", sans-serif;
         line-height: 10px;
         border-radius: ${round ? 8 : 2}px;
+
         &:empty {
             width: 8px;
             height: 8px;
@@ -36,6 +38,7 @@ function defaultSize(round) {
         font: 600 13px "Open Sans", sans-serif;
         line-height: 14px;
         border-radius: ${round ? 12 : 2}px;
+
         &:empty {
             width: 12px;
             height: 12px;

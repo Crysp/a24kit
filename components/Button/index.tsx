@@ -91,28 +91,26 @@ interface State {
     }[],
 }
 
-const defaultProps = {
-    tagName: 'button',
-    children: '',
-    className: '',
-    color: 'green',
-    contrast: false,
-    hollow: false,
-    secondary: false,
-    info: false,
-    disabled: false,
-    icon: null,
-    iconPosition: 'before',
-    side: 12,
-    loading: false,
-    onClick() {},
-};
-
 /**
  * @develop
  */
 export default class Button extends React.Component<Props, State> {
-    static defaultProps = defaultProps;
+    static defaultProps = {
+        tagName: 'button',
+        children: '',
+        className: '',
+        color: 'green',
+        contrast: false,
+        hollow: false,
+        secondary: false,
+        info: false,
+        disabled: false,
+        icon: null,
+        iconPosition: 'before',
+        side: 12,
+        loading: false,
+        onClick() {},
+    };
 
     readonly state = {
         ripples: [],

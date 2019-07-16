@@ -14,10 +14,12 @@ export default createGlobalStyle`
         overflow: hidden;
         zoom: 1;
     }
+
     .tabs-bar {
         border-bottom: 1px solid #e8e8e8;
         outline: none;
     }
+
     .tabs-nav {
         position: relative;
         box-sizing: border-box;
@@ -25,16 +27,19 @@ export default createGlobalStyle`
         padding-left: 0;
         margin: 0;
         list-style: none;
-        transition: transform .3s cubic-bezier(.645,.045,.355,1);
+        transition: transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
     }
+
     .tabs-nav-wrap {
         overflow: hidden;
         margin-bottom: -1px;
     }
+
     .tabs-nav-scroll {
         overflow: hidden;
         white-space: nowrap;
     }
+
     .tabs-nav-container {
         overflow: hidden;
         font-size: 14px;
@@ -45,13 +50,16 @@ export default createGlobalStyle`
         margin-bottom: -1px;
         zoom: 1;
     }
+
     .tabs-nav-container-scrolling {
         padding-left: 32px;
         padding-right: 32px;
     }
+
     .tabs-nav > div {
         display: flex;
     }
+
     .tabs-tab {
         position: relative;
         box-sizing: border-box;
@@ -63,12 +71,23 @@ export default createGlobalStyle`
         font-weight: 600;
         cursor: pointer;
         text-decoration: none;
-        transition: color .3s cubic-bezier(.645,.045,.355,1);
+        transition: color 0.3s cubic-bezier(0.645, 0.045, 9.355, 1);
     }
+
     .tabs-tab-active {
         color: ${Color.Coal};
     }
-    .tabs-tab-next, .tabs-tab-prev {
+
+    .tabs-tab-prev {
+        left: 0;
+    }
+
+    .tabs-tab-next {
+        right: 0;
+    }
+
+    .tabs-tab-next,
+    .tabs-tab-prev {
         position: absolute;
         z-index: 2;
         display: flex;
@@ -80,34 +99,32 @@ export default createGlobalStyle`
         background-color: transparent;
         cursor: pointer;
         text-align: center;
-        color: rgba(0,0,0,.45);
+        color: rgba(0, 0, 0, 0.45);
         transition:
-                width .3s cubic-bezier(.645,.045,.355,1),
-                opacity .3s cubic-bezier(.645,.045,.355,1),
-                color .3s cubic-bezier(.645,.045,.355,1);
+            width 0.3s cubic-bezier(0.645, 0.045, 0.355, 1),
+            opacity 0.3s cubic-bezier(0.645, 0.045, 0.355, 1),
+            color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
         opacity: 0;
         user-select: none;
         pointer-events: none;
+
         &:hover {
             color: ${Color.Blue};
         }
     }
-    .tabs-tab-prev {
-        left: 0;
-    }
-    .tabs-tab-next {
-        right: 0;
-    }
+
     .tabs-tab-arrow-show {
         opacity: 1;
         width: 32px;
         height: 100%;
         pointer-events: auto;
     }
+
     .tabs-tab-btn-disabled {
         color: ${Color.Pale} !important;
         cursor: not-allowed;
     }
+
     .tabs-ink-bar {
         z-index: 1;
         position: absolute;
@@ -118,36 +135,41 @@ export default createGlobalStyle`
         background-color: ${Color.Blue};
         transform-origin: 0 0;
     }
+
     .tabs-ink-bar-animated {
         transition:
-                transform .3s cubic-bezier(.645,.045,.355,1),
-                width .3s cubic-bezier(.645,.045,.355,1);
+            transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1),
+            width 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
     }
+
     .tabs-content {
         width: 100%;
     }
+
     .tabs-content-animated {
         display: flex;
         flex-direction: row;
         will-change: margin-left;
-        transition: margin-left .3s cubic-bezier(.645,.045,.355,1);
+        transition: margin-left 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
     }
+
     .tabs-tabpane {
         flex-shrink: 0;
         width: 100%;
-        transition: opacity .45s;
+        transition: opacity 0.45s;
         opacity: 1;
     }
-    
+
     .tabs-large .tabs-tab {
         font-size: 16px;
     }
-    
+
     .tabs-no-animation .tabs-tabpane-inactive {
         display: none;
     }
-    
-    .tabs-prevIcon, .tabs-nextIcon {
+
+    .tabs-prevIcon,
+    .tabs-nextIcon {
         width: 16px;
         height: 16px;
     }

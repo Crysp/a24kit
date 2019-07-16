@@ -33,7 +33,7 @@ export default styled.p<Props>`
     word-wrap: break-word;
     color: ${props => (props.light ? '#9c9c9c' : 'inherit')};
     ${getSize}
-    
+
     & + & {
         margin-top: 12px;
     }

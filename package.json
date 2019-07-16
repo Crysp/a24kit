@@ -31,6 +31,8 @@
     "react-dom": ">=16.0.0"
   },
   "dependencies": {
+    "@client/stylelint-config-a24": "^1.0.0",
+    "@types/react-test-renderer": "^16.8.2",
     "classnames": "^2.2.6",
     "inputmask-core": "^2.2.0",
     "moment": "^2.24.0",
@@ -45,6 +47,7 @@
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "styled-components": "^4.3.2",
+    "tinycolor2": "^1.4.1",
     "typescript": "^3.5.2"
   },
   "devDependencies": {
@@ -70,6 +73,7 @@
     "jest": "^24.8.0",
     "jest-coverage-badges": "^1.1.2",
     "jest-styled-components": "^6.3.3",
+    "lodash": "^4.17.13",
     "merge2": "^1.2.3",
     "react-test-renderer": "^16.8.6",
     "rimraf": "^2.6.3",

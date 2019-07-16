@@ -4,15 +4,15 @@ import { Color } from '../../../config';
 
 function fill(props) {
     if (props.disabled) {
-        return css`background-color: ${Color.Gray};`;
+        return `background-color: ${Color.Gray};`;
     }
     switch (props.color) {
         case 'green':
-            return css`background-color: ${Color.Green};`;
+            return `background-color: ${Color.Green};`;
         case 'deepBlue':
-            return css`background-color: ${Color.DeepBlue};`;
+            return `background-color: ${Color.DeepBlue};`;
         default:
-            return css`background-color: ${Color.Blue};`;
+            return `background-color: ${Color.Blue};`;
     }
 }
 
@@ -79,8 +79,7 @@ export const Wrapper = styled.div<WrapperProps>`
     border: ${props => (props.isChecked ? 0 : `1px solid ${Color.Pale}`)};
     background-color: ${props => (props.disabled ? Color.Zircon : Color.White)};
     border-radius: 2px;
-    transition: border-color .12s linear, border-width .12s linear;
-    
+    transition: border-color 0.12s linear, border-width 0.12s linear;
     ${size}
 `;
 
@@ -97,10 +96,9 @@ export const CheckMarkWrapper = styled.div<CheckMarkWrapperProps>`
     border-radius: 2px;
     opacity: ${props => (props.isChecked ? 1 : 0)};
     transform: scale(${props => (props.isChecked ? 1 : 0)});
-    transition: 
-        opacity .6s cubic-bezier(0.23, 1, 0.32, 1),
-        transform .6s cubic-bezier(0.23, 1, 0.32, 1);
-    
+    transition:
+        opacity 0.6s cubic-bezier(0.23, 1, 0.32, 1),
+        transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
     ${fill}
 `;
 
@@ -113,6 +111,5 @@ export const CheckMarkIcon = styled(CheckMark)<CheckMarkIconProps>`
     top: 50%;
     left: 50%;
     fill: ${Color.White};
-    
     ${iconSize}
 `;

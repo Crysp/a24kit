@@ -4,6 +4,7 @@ import { Color } from '../../config';
 function fillCurrent() {
     return css`
         color: ${Color.White};
+
         &::before {
             position: absolute;
             z-index: 0;
@@ -74,7 +75,6 @@ export const Wrapper = styled.div<WrapperProps>`
             }
         `
         : '')}
-    
     ${fill}
 `;
 

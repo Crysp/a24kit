@@ -16,23 +16,26 @@ export const ArrowDownIcon = styled(ArrowDown)`
     height: 16px;
     margin: 2px 12px 0 0;
     fill: ${Color.Blue};
-    transition: transform .15s cubic-bezier(.645,.045,.355,1);
+    transition: transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
 `;
 
 export const GlobalStyles = createGlobalStyle`
     .ui-collapse {
         position: relative;
     }
+
     .ui-collapse-item {
         position: relative;
-        
+
         & + & {
             border-top: 1px solid ${Color.Pale};
         }
     }
+
     .ui-collapse-item-active .arrow {
         transform: rotate(-180deg);
     }
+
     .ui-collapse-header {
         padding: 12px 16px;
         color: ${Color.Coal};
@@ -41,22 +44,27 @@ export const GlobalStyles = createGlobalStyle`
         background: transparent;
         cursor: pointer;
         outline: none;
-        transition: background-color .2s linear;
+        transition: background-color 0.2s linear;
+
         &:hover {
             background-color: rgba(71, 134, 200, 0.1);
         }
     }
+
     .ui-collapse-content-inactive {
         display: none;
     }
+
     .ui-collapse-wrapper {
         overflow: hidden;
     }
+
     .ui-collapse-wrapper-active {
         transition:
-                height .15s cubic-bezier(.645,.045,.355,1),
-                opacity .15s cubic-bezier(.645,.045,.355,1) !important;
+            height 0.15s cubic-bezier(0.645, 0.045, 0.355, 1),
+            opacity 0.15s cubic-bezier(0.645, 0.045, 0.355, 1) !important;
     }
+
     .ui-collapse-headless {
         display: none;
     }
