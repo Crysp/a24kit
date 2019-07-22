@@ -1,5 +1,5 @@
 import { css } from 'styled-components';
-import { styled } from '../../theme';
+import styled from '../ThemeProvider/styled-components';
 import { Color } from '../config';
 
 function mapColor(props) {

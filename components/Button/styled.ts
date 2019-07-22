@@ -39,7 +39,7 @@ function fillInfo() {
     return css`
         padding-top: 11px;
         padding-bottom: 11px;
-        color: ${({ theme }) => theme};
+        color: ${Color.Blue};
         border: 1px solid ${Color.Pale};
         background-color: ${Color.White};
         font-weight: 400;
