@@ -61,6 +61,5 @@ export default styled.span`
     color: ${Color.White};
     border-radius: 2px;
     background-color: ${mapColor};
-    
     ${size}
 `;
