@@ -14,7 +14,8 @@
     "lint:style": "stylelint \"components/**/styled.[jt]s?(x)\" --custom-formatter node_modules/stylelint-teamcity-formatter",
     "build": "webpack --mode production",
     "docz:dev": "docz dev --typescript",
-    "docz:build": "docz build --typescript"
+    "docz:build": "docz build --typescript",
+    "tokens": "figma-tokens"
   },
   "eslint-teamcity": {
     "reporter": "inspections",
@@ -81,6 +82,7 @@
     "@client/stylelint-config-a24": "^1.0.0",
     "@types/react-test-renderer": "^16.8.2",
     "classnames": "^2.2.6",
+    "figma-tokens": "^1.0.0",
     "inputmask-core": "^2.2.0",
     "moment": "^2.24.0",
     "polished": "^3.4.1",
@@ -93,6 +95,7 @@
     "rc-util": "^4.6.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
+    "retoggle": "^0.4.0",
     "styled-components": "^4.3.2",
     "tinycolor2": "^1.4.1",
     "typescript": "^3.5.2"

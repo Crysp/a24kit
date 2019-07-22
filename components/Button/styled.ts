@@ -1,4 +1,5 @@
-import styled, { css } from 'styled-components';
+import { css } from 'styled-components';
+import styled from '../ThemeProvider/styled-components';
 import { Color } from '../config';
 
 function filled(color: string, activeColor: string) {
@@ -38,7 +39,7 @@ function fillInfo() {
     return css`
         padding-top: 11px;
         padding-bottom: 11px;
-        color: ${Color.Blue};
+        color: ${({ theme }) => theme};
         border: 1px solid ${Color.Pale};
         background-color: ${Color.White};
         font-weight: 400;
